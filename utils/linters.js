@@ -1,6 +1,6 @@
 const jsdom = require('jsdom')
 const chalk = require('chalk')
-const SpellChecker = require('spellchecker')
+// const SpellChecker = require('spellchecker')
 
 module.exports = {
     spellcheck: function (content, inputPath) {
