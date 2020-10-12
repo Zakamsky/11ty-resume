@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update
 
-media_folder: "dist/assets/images/uploads"
-public_folder: "/assets/images/uploads"
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
 
 collections:
   - name: "work"        #The name of the collection and should match our posts.json file's tag
