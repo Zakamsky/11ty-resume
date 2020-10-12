@@ -6,7 +6,7 @@ media_folder: "src/assets/images"
 public_folder: "/assets/images"
 
 collections:
-  -
+
   - name: "work"        #The name of the collection and should match our posts.json file's tag
     label: "Work"       #The name of the collection on the CMS itself
     folder: "src/entries/work"      #The folder that our blog posts will be loaded from and saved to
@@ -20,7 +20,7 @@ collections:
       - {label: "end", name: "end", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
 #      - {label: "Featured Image", name: "featuredImage", widget: "image"}
-  -
+
   - label: "Autor"
       name: "Autor"
       files:
