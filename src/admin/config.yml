@@ -46,15 +46,15 @@ collections:
             fields:
               - {label: skill, name: skill, widget: string}
           - label: Languages
-              name: languages
-              widget: list
-              fields:
-                - {label: Name, name: name, widget: string}
-                - {label: Level, name: level, widget: string}
+            name: languages
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Level, name: level, widget: string}
           - label: Social
-              name: social
-              widget: list
-              fields:
-                - {label: name, name: name, widget: string}
-                - {label: user, name: user, widget: string}
-                - {label: url, name: url, widget: string}
+            name: social
+            widget: list
+            fields:
+              - {label: name, name: name, widget: string}
+              - {label: user, name: user, widget: string}
+              - {label: url, name: url, widget: string}
