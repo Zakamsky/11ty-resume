@@ -4,6 +4,7 @@
     "locale": "ru_ru",
     "colors": {
         "primary": "#00AE8B",
-        "secondary": "#FF6400"
+        "secondary": "#FF6400",
+        "gray": "#e2e9e7"
     }
 }
