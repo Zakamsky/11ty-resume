@@ -6,6 +6,7 @@ media_folder: "src/assets/images"
 public_folder: "/assets/images"
 
 collections:
+  -
   - name: "work"        #The name of the collection and should match our posts.json file's tag
     label: "Work"       #The name of the collection on the CMS itself
     folder: "src/entries/work"      #The folder that our blog posts will be loaded from and saved to
@@ -19,3 +20,43 @@ collections:
       - {label: "end", name: "end", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
 #      - {label: "Featured Image", name: "featuredImage", widget: "image"}
+  -
+  - label: "Autor"
+      name: "Autor"
+      files:
+        - label: "Autor info"
+          name: "autorinfo"
+          file: "src/data/author.json"
+          fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Occupation, name: occupation, widget: string}
+            - {label: Location, name: location, widget: string}
+            - label: "AvatarF"
+              name: "avatar"
+              widget: "file"
+              default: "avatar.png"
+              media_library:
+                config:
+                  multiple: false
+            - {label: Pronouns, name: pronouns, widget: string}
+            - {label: Email, name: email, widget: string}
+            - {label: Telephone, name: telephone, widget: string}
+            - {label: website, name: website, widget: string}
+            - label: Skills
+              name: skills
+              widget: list
+              fields:
+                - {label: skill, name: skill, widget: string}
+            - label: Languages
+                name: languages
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Level, name: level, widget: string}
+            - label: Social
+                name: social
+                widget: list
+                fields:
+                  - {label: name, name: name, widget: string}
+                  - {label: user, name: user, widget: string}
+                  - {label: url, name: url, widget: string}
