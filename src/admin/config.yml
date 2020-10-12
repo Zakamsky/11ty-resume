@@ -19,44 +19,42 @@ collections:
       - {label: "start", name: "start", widget: "string"}
       - {label: "end", name: "end", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
-#      - {label: "Featured Image", name: "featuredImage", widget: "image"}
-
-  - label: "Autor"
-      name: "Autor"
-      files:
-        - label: "Autor info"
-          name: "autorinfo"
-          file: "src/data/author.json"
-          fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Occupation, name: occupation, widget: string}
-            - {label: Location, name: location, widget: string}
-            - label: "AvatarF"
-              name: "avatar"
-              widget: "file"
-              default: "avatar.png"
-              media_library:
-                config:
-                  multiple: false
-            - {label: Pronouns, name: pronouns, widget: string}
-            - {label: Email, name: email, widget: string}
-            - {label: Telephone, name: telephone, widget: string}
-            - {label: website, name: website, widget: string}
-            - label: Skills
-              name: skills
+  - name: "Autor"
+    label: "Autor"
+    files:
+      - label: "Autor info"
+        name: "autorinfo"
+        file: "src/data/author.json"
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Occupation, name: occupation, widget: string}
+          - {label: Location, name: location, widget: string}
+          - label: "AvatarF"
+            name: "avatar"
+            widget: "file"
+            default: "avatar.png"
+            media_library:
+              config:
+                multiple: false
+          - {label: Pronouns, name: pronouns, widget: string}
+          - {label: Email, name: email, widget: string}
+          - {label: Telephone, name: telephone, widget: string}
+          - {label: website, name: website, widget: string}
+          - label: Skills
+            name: skills
+            widget: list
+            fields:
+              - {label: skill, name: skill, widget: string}
+          - label: Languages
+              name: languages
               widget: list
               fields:
-                - {label: skill, name: skill, widget: string}
-            - label: Languages
-                name: languages
-                widget: list
-                fields:
-                  - {label: Name, name: name, widget: string}
-                  - {label: Level, name: level, widget: string}
-            - label: Social
-                name: social
-                widget: list
-                fields:
-                  - {label: name, name: name, widget: string}
-                  - {label: user, name: user, widget: string}
-                  - {label: url, name: url, widget: string}
+                - {label: Name, name: name, widget: string}
+                - {label: Level, name: level, widget: string}
+          - label: Social
+              name: social
+              widget: list
+              fields:
+                - {label: name, name: name, widget: string}
+                - {label: user, name: user, widget: string}
+                - {label: url, name: url, widget: string}
