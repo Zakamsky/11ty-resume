@@ -4,7 +4,7 @@
     {% include "meta.njk" %}
     <link rel="preload" href="{{ '/assets/fonts/butler-medium.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js">
+
 </head>
 <body {% if meta.colors %}style="{{ meta.colors | themeColors }}"{% endif %}>
     <div data-icon-sprite hidden>{% iconsprite %}</div>
@@ -18,17 +18,7 @@
 
     <script type="text/javascript" src="{{ '/assets/scripts/main.js' | url }}"></script>
 
-    <script>
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      </script>
+
 
     <!--! LAST BUILD: {{ build.env}} {{ build.timestamp | dateToISO }} -->
 
