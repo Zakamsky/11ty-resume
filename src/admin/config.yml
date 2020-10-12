@@ -8,7 +8,7 @@ public_folder: "/assets/images/uploads"
 collections:
   - name: "work"        #The name of the collection and should match our posts.json file's tag
     label: "Work"       #The name of the collection on the CMS itself
-    folder: "work"      #The folder that our blog posts will be loaded from and saved to
+    folder: "src/entries/work"      #The folder that our blog posts will be loaded from and saved to
     create: true             #Tells the CMS that new posts can be created
     fields:
       - {label: "title", name: "title", widget: "string"}
