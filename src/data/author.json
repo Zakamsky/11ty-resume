@@ -4,41 +4,41 @@
     "location": "Valencia, Es",
     "avatar": "avatar.png",
     "pronouns": "test information",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
+    "email": "alex@elkin.dev",
+    "telephone": "+34698999059 ",
+    "website": "https://elkin.dev",
     "skills": [
         "HTML",
         "CSS",
-        "Javascript / ES6",
-        "UI Design",
-        "React",
+        "Javascript",
+        "PHP basic",
+        "Vue",
         "Git"
     ],
     "languages": [
         {
             "name": "English",
-            "level": "native"
-        },
-        {
-            "name": "German",
-            "level": "fluent"
-        },
-        {
-            "name": "French",
             "level": "basic"
+        },
+        {
+            "name": "Spanish",
+            "level": "basic"
+        },
+        {
+            "name": "Russian",
+            "level": "native"
         }
     ],
     "social": [
         {
             "name": "Github",
-            "user": "@annaquincey",
-            "url": "https://github.com/annaquincey"
+            "user": "@zakamsky",
+            "url": "https://github.com/zakamsky"
         },
         {
             "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
+            "user": "AlexElkin",
+            "url": "https://www.linkedin.com/in/alexelkin"
         }
     ]
 }
