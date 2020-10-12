@@ -10,7 +10,6 @@ collections:
     label: "Work"       #The name of the collection on the CMS itself
     folder: "work"      #The folder that our blog posts will be loaded from and saved to
     create: true             #Tells the CMS that new posts can be created
-    #slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  #this sets the URL for the post
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "organization", name: "organization", widget: "string"}
