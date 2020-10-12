@@ -4,3 +4,19 @@ backend:
 
 media_folder: "dist/assets/images/uploads"
 public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "work"        #The name of the collection and should match our posts.json file's tag
+    label: "Work"       #The name of the collection on the CMS itself
+    folder: "work"      #The folder that our blog posts will be loaded from and saved to
+    create: true             #Tells the CMS that new posts can be created
+    #slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  #this sets the URL for the post
+    fields:
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "organization", name: "organization", widget: "string"}
+      - {label: "organizationUrl", name: "organizationUrl", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
+      - {label: "start", name: "start", widget: "date"}
+      - {label: "end", name: "end", widget: "date"}
+      - {label: "Post Body", name: "body", widget: "markdown"}
+#      - {label: "Featured Image", name: "featuredImage", widget: "image"}
