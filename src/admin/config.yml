@@ -29,7 +29,7 @@ collections:
           - {label: Name, name: name, widget: string}
           - {label: Occupation, name: occupation, widget: string}
           - {label: Location, name: location, widget: string}
-          - label: "AvatarF"
+          - label: "Avatar"
             name: "avatar"
             widget: "file"
             default: "avatar.png"
@@ -40,21 +40,21 @@ collections:
           - {label: Email, name: email, widget: string}
           - {label: Telephone, name: telephone, widget: string}
           - {label: website, name: website, widget: string}
-          - label: Skills
-            name: skills
-            widget: list
-            fields:
-              - {label: skill, name: skill, widget: string}
-          - label: Languages
-            name: languages
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Level, name: level, widget: string}
-          - label: Social
-            name: social
-            widget: list
-            fields:
-              - {label: name, name: name, widget: string}
-              - {label: user, name: user, widget: string}
-              - {label: url, name: url, widget: string}
+#          - label: Skills
+#            name: skills
+#            widget: list
+#            fields:
+#              - {label: skill, name: skill, widget: string}
+#          - label: Languages
+#            name: languages
+#            widget: list
+#            fields:
+#              - {label: Name, name: name, widget: string}
+#              - {label: Level, name: level, widget: string}
+#          - label: Social
+#            name: social
+#            widget: list
+#            fields:
+#              - {label: name, name: name, widget: string}
+#              - {label: user, name: user, widget: string}
+#              - {label: url, name: url, widget: string}
