@@ -1,6 +1,6 @@
 module.exports = [
   {
-    label: 'Russian',
+    label: 'Русский',
     code: 'ru-RU'
   },
   {

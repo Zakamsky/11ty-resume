@@ -1,10 +1,16 @@
 {% set pageUrl = page.url.split('/').slice(2).join('/') %}
 
 {% if locales.length %}
-  <ul class="language-list">
+  <ul class="language-list" aria-label="{{ 'select_language' | i18n }}">
     {% for locale in locales -%}
       <li class="language-list__item">
-        <a class="language-list__link" href="/{{ locale.code }}/{{ pageUrl }}" rel="alternate" hreflang="{{ locale.code }}" aria-label="{{ locale.label }}">
+        <a class="language-list__link has-tooltip"
+           href="/{{ locale.code }}/{{ pageUrl }}"
+           rel="alternate"
+           hreflang="{{ locale.code }}"
+           aria-label="{{ locale.label }}"
+           title="{{ locale.label }}"
+        >
             <svg class="language-list__icon --{{ locale.code }}"  width="20" height="15">
                 <use xlink:href="#flag-{{ locale.code }}"></use>
             </svg>
@@ -37,6 +43,5 @@
       <path d="M0 0h640v160H0z"/>
       <path fill="#d00" d="M0 160h640v160H0z"/>
     </symbol>
-
 </svg>
 

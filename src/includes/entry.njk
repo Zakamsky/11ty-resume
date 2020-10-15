@@ -12,7 +12,7 @@
                     {{ entry.data.end | dateToFormat("MM/yyyy") }}
                 </time>
             {% else %}
-                <span>{{ strings.labels.present }}</span>
+                <span>{{ 'present' | i18n }}</span>
             {% endif %}
         </p>
 

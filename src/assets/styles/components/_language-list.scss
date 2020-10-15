@@ -14,5 +14,9 @@
     border-radius: 2px;
     box-shadow: 2px 3px 12px 1px rgba(102, 102, 102, 0.6);
   }
+  &.has-tooltip[aria-label]::after{
+    bottom: unset;
+    top: 110%;
+  }
 }
 

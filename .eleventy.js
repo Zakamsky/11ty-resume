@@ -55,6 +55,7 @@ module.exports = function (config) {
 
     // Asset Watch Targets
     config.addWatchTarget('./src/assets')
+    config.addWatchTarget('./src/data/i18n')
 
     // Markdown
     config.setLibrary(

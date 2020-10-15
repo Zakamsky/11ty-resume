@@ -1,51 +1,75 @@
 module.exports = {
-  // General
+  // Author:
   author_name: {
     'ru-RU': 'Алексей Елькин',
     'en-GB': 'Alex Elkin',
     'es-ES': 'Aleks Elkin'
   },
+  pronouns: {
+    'ru-RU': '',
+    'en-GB': 'He/Him',
+    'es-ES': 'Él'
+  },
+  occupation: {
+    'ru-RU': 'Front-End разработчик',
+    'en-GB': 'Front-End Developer',
+    'es-ES': 'Desarrollador de front-end'
+  },
+
+  // General
   select_language: {
-    'ar-AE': 'اختار اللغة',
+    'ru-RU': 'Выбрать язык',
     'en-GB': 'Select language',
     'es-ES': 'Seleccione el idioma'
   },
 
-  // Greetings
-  hello: {
-    'ar-AE': 'مرحبا',
-    'en-GB': 'Hello',
-    'es-ES': 'Hola'
+  email: {
+    'ru-RU': 'Электронная почта email',
+    'en-GB': 'Email',
+    'es-ES': 'Coreo electronico email'
   },
-  hello_name: {
-    'ar-AE': '{{ name }}مرحبا',
-    'en-GB': 'Hello, {{ name }}!',
-    'es-ES': '¡Hola {{ name }}!'
+  telephone: {
+    'ru-RU': 'Телефон',
+    'en-GB': 'Telephone',
+    'es-ES': 'Teléfono'
   },
-
-  // Navigation
-  homepage: {
-    'ru-RU': 'ывапва',
-    'en-GB': 'Homepage',
-    'es-ES': 'Página principal'
+  website: {
+    'ru-RU': 'Вебсайт',
+    'en-GB': 'Website',
+    'es-ES': 'Página web'
   },
-  posts: {
-    'ar-AE': 'المشاركات',
-    'en-GB': 'Posts',
-    'es-ES': 'Publicaciones'
+  print: {
+    'ru-RU': 'Распечатать резюме',
+    'en-GB': 'Print Résumé',
+    'es-ES': 'Imprimir Currículum'
   },
-
-  // Nested organisation example
-  actions: {
-    click: {
-      'ar-AE': 'انقر',
-      'en-GB': 'Click',
-      'es-ES': 'Hacer clic'
-    },
-    loading: {
-      'ar-AE': 'جار التحميل',
-      'en-GB': 'Loading',
-      'es-ES': 'Cargando'
-    }
+  present: {
+    'ru-RU': 'По настоящее время',
+    'en-GB': 'Present',
+    'es-ES': 'Presente'
+  },
+  lastUpdated: {
+    'ru-RU': 'Последнее обновление',
+    'en-GB': 'Last updated',
+    'es-ES': 'Última actualización'
   }
+  // hello_name: {
+  //   'ru-RU': '{{ name }}مرحبا',
+  //   'en-GB': 'Hello, {{ name }}!',
+  //   'es-ES': '¡Hola {{ name }}!'
+  // },
+  //
+  // // Nested organisation example
+  // actions: {
+  //   click: {
+  //     'ru-RU': 'انقر',
+  //     'en-GB': 'Click',
+  //     'es-ES': 'Hacer clic'
+  //   },
+  //   loading: {
+  //     'ru-RU': 'جار التحميل',
+  //     'en-GB': 'Loading',
+  //     'es-ES': 'Cargando'
+  //   }
+  // }
 };
