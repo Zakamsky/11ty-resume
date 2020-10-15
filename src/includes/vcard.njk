@@ -6,10 +6,9 @@
 
     <div class="vcard__content">
         <div class="vcard__title">
-            <h1 class="p-name">{{ author.name }}</h1>
-            <h1 class="p-name">{{ nombre }}</h1>
+            <h1 class="p-name">{{ 'author_name' | i18n }}</h1>
             {% if author.pronouns %}
-                <em class="vcard__pronouns p-gender-identity">({{ author.pronouns }})</em>
+                <em class="vcard__pronouns p-gender-identity">({{ author.pronouns }} {{ 'homepage' | i18n }})</em>
             {% endif %}
         </div>
 

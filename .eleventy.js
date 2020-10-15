@@ -17,7 +17,7 @@ module.exports = function (config) {
     config.addPlugin(i18n, {
         translations,
         fallbackLocales: {
-            '*': 'ru-RU'
+            '*': 'en-GB'
         }
     })
 
@@ -111,7 +111,7 @@ module.exports = function (config) {
                 bs.addMiddleware('*', (req, res) => {
                     if (req.url === '/') {
                         res.writeHead(302, {
-                            location: '/ru-RU/'
+                            location: '/en-GB/'
                         });
                         res.end();
                     }
