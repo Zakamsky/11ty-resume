@@ -12,3 +12,7 @@
         X-XSS-Protection = "1; mode=block"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy= "no-referrer-when-downgrade"
+[[redirects]]
+  from = "/"
+  to = "/ru-RU"
+  status = 301

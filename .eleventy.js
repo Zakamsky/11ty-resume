@@ -1,6 +1,9 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
 
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('./src/data/i18n');
+
 const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
@@ -10,6 +13,14 @@ const iconsprite = require('./utils/iconsprite.js')
 module.exports = function (config) {
     // Plugins
     config.addPlugin(pluginRss)
+
+    config.addPlugin(i18n, {
+        translations,
+        fallbackLocales: {
+            '*': 'ru-RU'
+        }
+    })
+
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
@@ -32,6 +43,12 @@ module.exports = function (config) {
     //         config.addLinter(linterName, linters[linterName])
     //     })
     // }
+
+    // TEMP demo of what could be an i18n-aware plural package?
+    config.addFilter('pluralize', function (term, count = 1) {
+        // Poorman's pluralize for now...
+        return count === 1 ? term : `${term}s`;
+    });
 
     // Icon Sprite
     config.addNunjucksAsyncShortcode('iconsprite', iconsprite)
@@ -84,6 +101,24 @@ module.exports = function (config) {
 
     // Deep-Merge
     config.setDataDeepMerge(true)
+
+    // Browsersync
+    // Redirect from root to default language root during --serve
+    // Can also be handled by netlify.toml?
+    config.setBrowserSyncConfig({
+        callbacks: {
+            ready: function (err, bs) {
+                bs.addMiddleware('*', (req, res) => {
+                    if (req.url === '/') {
+                        res.writeHead(302, {
+                            location: '/ru-RU/'
+                        });
+                        res.end();
+                    }
+                });
+            }
+        }
+    });
 
     // Base Config
     return {

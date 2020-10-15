@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="{{ meta.lang }}">
+<html class="no-js" lang="{{ locale }}" dir="{{ dir }}">
 <head>
     {% include "meta.njk" %}
     <link rel="preload" href="{{ '/assets/fonts/butler-medium.woff2' | url }}" as="font" type="font/woff2" crossorigin>
@@ -9,6 +9,8 @@
 <body {% if meta.colors %}style="{{ meta.colors | themeColors }}"{% endif %}>
     <div data-icon-sprite hidden>{% iconsprite %}</div>
 
+    {% include 'language-selector.njk' %}
+{{ 'homepage' | i18n }}
     <div class="layout h-resume" role="document">
         {% include "header.njk" %}
         {{ content | safe }}
