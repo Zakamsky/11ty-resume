@@ -54,7 +54,6 @@ collections:
               - label: 'Code'
                 name: 'code'
                 widget: 'code'
-
   - name: "Works-en-GB"
     label: "work-en"
     folder: "src/en-GB/entries/work"
