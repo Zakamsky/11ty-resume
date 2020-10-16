@@ -47,13 +47,13 @@ collections:
               - {label: name, name: name, widget: string}
               - {label: user, name: user, widget: string}
               - {label: url, name: url, widget: string}
-      - label: "Localization-js"
-        name: "lacalize"
-        file: "src/data/i18n/index.js"
-        fields:
-          - label: 'Code'
-            name: 'code'
-            widget: 'code'
+#      - label: "Localization-js"
+#        name: "lacalize"
+#        file: "src/data/i18n/index.js"
+#        fields:
+#          - label: 'Code'
+#            name: 'ищвн'
+#            widget: 'code'
   - name: "intro-en-GB"
     label: "Intro-english"
     file: "src/en-GB/entries/introduction.md"
@@ -91,14 +91,14 @@ collections:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "intro-es-ES"
-    label: "Intro-english"
+    label: "Intro-spain"
     file: "src/es-ES/entries/introduction.md"
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "works-es-ES"
-    label: "Work-english"
+    label: "Work-spain"
     folder: "src/es-ES/entries/work"
     create: true
     fields:
@@ -110,7 +110,7 @@ collections:
       - {label: "end", name: "end", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "education-es-ES"
-    label: "Education-english"
+    label: "Education-spain"
     folder: "src/es-ES/entries/education"
     create: true
     fields:
@@ -120,21 +120,21 @@ collections:
       - {label: "start", name: "start", widget: "string"}
       - {label: "end", name: "end", widget: "string"}
   - name: "content-es-ES"
-    label: "Content-english"
+    label: "Content-spain"
     folder: "src/es-ES/entries/content"
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "intro-ru-RU"
-    label: "Intro-english"
+    label: "Intro-russian"
     file: "src/ru-RU/entries/introduction.md"
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "works-ru-RU"
-    label: "Work-english"
+    label: "Work-russian"
     folder: "src/ru-RU/entries/work"
     create: true
     fields:
@@ -146,7 +146,7 @@ collections:
       - {label: "end", name: "end", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "education-ru-RU"
-    label: "Education-english"
+    label: "Education-russian"
     folder: "src/ru-RU/entries/education"
     create: true
     fields:
@@ -156,7 +156,7 @@ collections:
       - {label: "start", name: "start", widget: "string"}
       - {label: "end", name: "end", widget: "string"}
   - name: "content-ru-RU"
-    label: "Content-english"
+    label: "Content-russian"
     folder: "src/ru-RU/entries/content"
     create: true
     fields:
