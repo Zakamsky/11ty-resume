@@ -7,27 +7,15 @@ public_folder: "/assets/images"
 
 collections:
 
-  - name: "work"        #The name of the collection and should match our posts.json file's tag
-    label: "Work"       #The name of the collection on the CMS itself
-    folder: "src/entries/work"      #The folder that our blog posts will be loaded from and saved to
-    create: true             #Tells the CMS that new posts can be created
-    fields:
-      - {label: "title", name: "title", widget: "string"}
-      - {label: "organization", name: "organization", widget: "string"}
-      - {label: "organizationUrl", name: "organizationUrl", widget: "string"}
-      - {label: "location", name: "location", widget: "string"}
-      - {label: "start", name: "start", widget: "string"}
-      - {label: "end", name: "end", widget: "string"}
-      - {label: "Post Body", name: "body", widget: "markdown"}
-  - name: "Autor"
-    label: "Autor"
+  - name: "Main"
+    label: "main"
     files:
       - label: "Autor info"
         name: "autorinfo"
         file: "src/data/author.json"
         fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Occupation, name: occupation, widget: string}
+#          - {label: Name, name: name, widget: string}
+#          - {label: Occupation, name: occupation, widget: string}
           - {label: Location, name: location, widget: string}
           - label: "Avatar"
             name: "avatar"
@@ -36,7 +24,7 @@ collections:
             media_library:
               config:
                 multiple: false
-          - {label: Pronouns, name: pronouns, widget: string}
+#          - {label: Pronouns, name: pronouns, widget: string}
           - {label: Email, name: email, widget: string}
           - {label: Telephone, name: telephone, widget: string}
           - {label: website, name: website, widget: string}
@@ -59,3 +47,35 @@ collections:
               - {label: name, name: name, widget: string}
               - {label: user, name: user, widget: string}
               - {label: url, name: url, widget: string}
+          - label: "Localization js"
+            name: "lacalize"
+            file: "src/data/i18n/index.js"
+            fields:
+              - label: 'Code'
+                name: 'code'
+                widget: 'code'
+
+  - name: "English en-GB"
+    label: "en-gb"
+    - name: "Works"
+      label: "work"
+      folder: "src/en-GB/entries/work"
+      create: true
+      fields:
+        - {label: "title", name: "title", widget: "string"}
+        - {label: "organization", name: "organization", widget: "string"}
+        - {label: "organizationUrl", name: "organizationUrl", widget: "string"}
+        - {label: "location", name: "location", widget: "string"}
+        - {label: "start", name: "start", widget: "string"}
+        - {label: "end", name: "end", widget: "string"}
+        - {label: "Post Body", name: "body", widget: "markdown"}
+    - name: "Education"
+        label: "education"
+        folder: "src/en-GB/entries/education"
+        create: true
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "organization", name: "organization", widget: "string"}
+          - {label: "location", name: "location", widget: "string"}
+          - {label: "start", name: "start", widget: "string"}
+          - {label: "end", name: "end", widget: "string"}
