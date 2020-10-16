@@ -61,11 +61,11 @@ collections:
           - {label: "title", name: "title", widget: "string"}
           - {label: "Post Body", name: "body", widget: "markdown"}
       - name: "intro-es-ES"
-          label: "Intro-spain"
-          file: "src/es-ES/entries/introduction.md"
-          fields:
-            - {label: "title", name: "title", widget: "string"}
-            - {label: "Post Body", name: "body", widget: "markdown"}
+        label: "Intro-spain"
+        file: "src/es-ES/entries/introduction.md"
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "Post Body", name: "body", widget: "markdown"}
       - name: "intro-ru-RU"
         label: "Intro-russian"
         file: "src/ru-RU/entries/introduction.md"
