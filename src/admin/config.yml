@@ -55,7 +55,7 @@ collections:
                 name: 'code'
                 widget: 'code'
 
-  - name: "English en-GB"
+  - name: "English"
     label: "en-gb"
     - name: "Works"
       label: "work"
