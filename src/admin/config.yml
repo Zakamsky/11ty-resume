@@ -55,27 +55,25 @@ collections:
                 name: 'code'
                 widget: 'code'
 
-  - name: "English"
-    label: "en-gb"
-    - name: "Works"
-      label: "work"
-      folder: "src/en-GB/entries/work"
+  - name: "Works-en-GB"
+    label: "work-en"
+    folder: "src/en-GB/entries/work"
+    create: true
+    fields:
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "organization", name: "organization", widget: "string"}
+      - {label: "organizationUrl", name: "organizationUrl", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
+      - {label: "start", name: "start", widget: "string"}
+      - {label: "end", name: "end", widget: "string"}
+      - {label: "Post Body", name: "body", widget: "markdown"}
+  - name: "Education-en-GB"
+      label: "education-en"
+      folder: "src/en-GB/entries/education"
       create: true
       fields:
         - {label: "title", name: "title", widget: "string"}
         - {label: "organization", name: "organization", widget: "string"}
-        - {label: "organizationUrl", name: "organizationUrl", widget: "string"}
         - {label: "location", name: "location", widget: "string"}
         - {label: "start", name: "start", widget: "string"}
         - {label: "end", name: "end", widget: "string"}
-        - {label: "Post Body", name: "body", widget: "markdown"}
-    - name: "Education"
-        label: "education"
-        folder: "src/en-GB/entries/education"
-        create: true
-        fields:
-          - {label: "title", name: "title", widget: "string"}
-          - {label: "organization", name: "organization", widget: "string"}
-          - {label: "location", name: "location", widget: "string"}
-          - {label: "start", name: "start", widget: "string"}
-          - {label: "end", name: "end", widget: "string"}
