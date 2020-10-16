@@ -45,10 +45,10 @@ module.exports = function (config) {
     // }
 
     // TEMP demo of what could be an i18n-aware plural package?
-    config.addFilter('pluralize', function (term, count = 1) {
-        // Poorman's pluralize for now...
-        return count === 1 ? term : `${term}s`;
-    });
+    // config.addFilter('pluralize', function (term, count = 1) {
+    //     // Poorman's pluralize for now...
+    //     return count === 1 ? term : `${term}s`;
+    // });
 
     // Icon Sprite
     config.addNunjucksAsyncShortcode('iconsprite', iconsprite)
@@ -73,24 +73,45 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
+    // example
+    const locales = ['en-GB', 'es-ES', 'ru-RU']
+    locales.forEach((name) => {
+        const introduction = 'introduction_'+ name
+        config.addCollection(introduction, function (collection) {
+            return collection.getFilteredByGlob("./src/" + name + "/entries/introduction.md");
+        });
+    })
+    locales.forEach((name) => {
+        const introduction = 'content_'+ name
+        config.addCollection(introduction, function (collection) {
+            return collection.getFilteredByGlob("./src/" + name + "/entries/content/*.md");
+        });
+    })
+
+    // END of example
     const collections = ['work', 'education']
+
     collections.forEach((name) => {
-        config.addCollection(name, function (collection) {
-            const folderRegex = new RegExp(`\/${name}\/`)
-            const inEntryFolder = (item) =>
-                item.inputPath.match(folderRegex) !== null
-
-            const byStartDate = (a, b) => {
-                if (a.data.start && b.data.start) {
-                    return a.data.start - b.data.start
+        locales.forEach((loc) => {
+            const collectionName = name + "_" + loc
+            config.addCollection(collectionName, function (collection) {
+                // const folderRegex = new RegExp(`\/${name}\/`)
+                // const inEntryFolder = (item) =>
+                //     item.inputPath.match(folderRegex) !== null
+                const folder = "./src/" + loc + "/entries/" + name + "/*.md" //"./src/fr/posts/*.md"
+                const byStartDate = (a, b) => {
+                    if (a.data.start && b.data.start) {
+                        return a.data.start - b.data.start
+                    }
+                    return 0
                 }
-                return 0
-            }
 
-            return collection
-                .getAllSorted()
-                .filter(inEntryFolder)
-                .sort(byStartDate)
+                return collection
+                    // .getAllSorted()
+                    // .filter(inEntryFolder)
+                    .getFilteredByGlob(folder)
+                    .sort(byStartDate)
+            })
         })
     })
 

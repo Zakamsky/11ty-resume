@@ -1,16 +1,9 @@
 {
-  "skills": [
-    "HTML",
-    "CSS",
-    "Javascript",
-    "PHP basic",
-    "Vue",
-    "Git"
-  ],
+  "avatar": "avatar.png",
+  "location": "Valencia, ES",
   "telephone": "+34 698 999 059 ",
-  "occupation": "Front-End Developer",
-  "name": "author_name",
-  "pronouns": "homepage",
+  "email": "alex@elkin.dev",
+  "website": "https://elkin.dev",
   "social": [
     {
       "name": "Github",
@@ -23,8 +16,11 @@
       "url": "https://www.linkedin.com/in/alexelkin"
     }
   ],
-  "location": "Valencia, ES",
-  "avatar": "avatar.png",
+  "interests": {
+    "ru-RU": "Увлечения",
+    "en-GB": "Interests",
+    "es-ES": "Intereses"
+  },
   "languages": [
     {
       "name": "Spanish",
@@ -39,6 +35,13 @@
       "level": "native"
     }
   ],
-  "website": "https://elkin.dev",
-  "email": "alex@elkin.dev"
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "PHP basic",
+    "Vue",
+    "Git"
+  ]
+
 }

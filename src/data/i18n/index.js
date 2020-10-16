@@ -52,7 +52,69 @@ module.exports = {
     'ru-RU': 'Последнее обновление',
     'en-GB': 'Last updated',
     'es-ES': 'Última actualización'
+  },
+  AboutMe: {
+    'ru-RU': 'Обо мне',
+    'en-GB': 'About Me',
+    'es-ES': 'Sobre mí'
+  },
+  experience: {
+    'ru-RU': 'Опыт работы',
+    'en-GB': 'Work Experience',
+    'es-ES': 'Experiencia laboral'
+  },
+  education: {
+    'ru-RU': 'Образование',
+    'en-GB': 'Education',
+    'es-ES': 'Educación'
+  },
+  skills: {
+    'ru-RU': 'Навыки',
+    'en-GB': 'Skills',
+    'es-ES': 'Habilidad'
+  },
+  languages: {
+    'ru-RU': 'Языки',
+    'en-GB': 'Languages',
+    'es-ES': 'Idioma'
+  },
+  interests: {
+    'ru-RU': 'Увлечения',
+    'en-GB': 'Interests',
+    'es-ES': 'Intereses'
+  },
+  Spanish: {
+    'ru-RU': 'Испанский',
+    'en-GB': 'Spanish',
+    'es-ES': 'Español'
+  },
+  English: {
+    'ru-RU': 'Английский',
+    'en-GB': 'English',
+    'es-ES': 'Ingles'
+  },
+  Russian: {
+    'ru-RU': 'Русский',
+    'en-GB': 'Russian',
+    'es-ES': 'Ruso'
+  },
+  basic: {
+    'ru-RU': 'базовый',
+    'en-GB': 'basic',
+    'es-ES': 'basico'
+  },
+  advance: {
+    'ru-RU': 'продвинутый',
+    'en-GB': 'advance',
+    'es-ES': 'avance'
+  },
+  native: {
+    'ru-RU': 'родной',
+    'en-GB': 'native',
+    'es-ES': 'nativo'
   }
+
+
   // hello_name: {
   //   'ru-RU': '{{ name }}مرحبا',
   //   'en-GB': 'Hello, {{ name }}!',

@@ -4,8 +4,9 @@ layout: base
 
 <main class="main container">
 
-        {% if collections.introduction.length %}
-            {% set intro = collections.introduction|first %}
+    {% set introduction = collections["introduction_" + locale] %}
+        {% if introduction.length %}
+            {% set intro = introduction|first %}
             <section class="section" id="section-introduction" data-spellcheck>
                 <h2 class="section__title">{{ intro.data.title }}</h2>
                 <div class="lead p-summary">
@@ -15,15 +16,16 @@ layout: base
         {% endif %}
 
         <section class="section" id="section-experience">
-            <h2 class="section__title">{{ strings.titles.experience }}</h2>
-            {% set entries = collections.work %}
+            <h2 class="section__title">{{ 'experience' | i18n }}</h2>
+{#            {% set entries = collections.work %}#}
+            {% set entries = collections["work_" + locale] %}
             {% set microformat = "p-experience" %}
             {% include "entrylist.njk" %}
         </section>
 
         <section class="section" id="section-education">
-            <h2 class="section__title">{{ strings.titles.education }}</h2>
-            {% set entries = collections.education %}
+            <h2 class="section__title">{{ 'education' | i18n }}</h2>
+            {% set entries = collections["education_" + locale] %}
             {% set microformat = "p-education" %}
             {% include "entrylist.njk" %}
         </section>
@@ -32,7 +34,7 @@ layout: base
         <div class="grid grid--2col">
             {% if author.skills %}
             <section class="section section--half" id="section-skills">
-                <h2 class="section__title">{{ strings.titles.skills }}</h2>
+                <h2 class="section__title">{{ 'skills' | i18n }}</h2>
                 <ul class="bulletlist">
                 {% for skill in author.skills %}
                     <li class="p-skill">{{ skill }}</li>
@@ -43,10 +45,10 @@ layout: base
 
             {% if author.languages %}
             <section class="section section--half" id="section-languages">
-                <h2 class="section__title">{{ strings.titles.languages }}</h2>
+                <h2 class="section__title">{{ 'languages' | i18n }}</h2>
                 <ul class="bulletlist">
                 {% for language in author.languages %}
-                    <li class="p-skill">{{ language.name }} ({{ language.level }})</li>
+                    <li class="p-skill">{{ language.name | i18n }} ({{ language.level | i18n }})</li>
                 {% endfor %}
                 </ul>
             </section>
@@ -54,8 +56,9 @@ layout: base
         </div>
     {% endif %}
 
-    {% if collections.custom.length %}
-        {% set custom = collections.custom|first %}
+    {% set content = collections["content_" + locale] %}
+    {% if content.length %}
+        {% set custom = content|first %}
         <section class="section" id="section-custom" data-spellcheck>
             {% if custom.data.title %}
                 <h2 class="section__title">{{ custom.data.title }}</h2>
