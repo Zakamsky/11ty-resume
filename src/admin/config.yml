@@ -67,12 +67,12 @@ collections:
       - {label: "end", name: "end", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
   - name: "Education-en-GB"
-      label: "education-en"
-      folder: "src/en-GB/entries/education"
-      create: true
-      fields:
-        - {label: "title", name: "title", widget: "string"}
-        - {label: "organization", name: "organization", widget: "string"}
-        - {label: "location", name: "location", widget: "string"}
-        - {label: "start", name: "start", widget: "string"}
-        - {label: "end", name: "end", widget: "string"}
+    label: "education-en"
+    folder: "src/en-GB/entries/education"
+    create: true
+    fields:
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "organization", name: "organization", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
+      - {label: "start", name: "start", widget: "string"}
+      - {label: "end", name: "end", widget: "string"}
