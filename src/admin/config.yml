@@ -47,17 +47,16 @@ collections:
               - {label: name, name: name, widget: string}
               - {label: user, name: user, widget: string}
               - {label: url, name: url, widget: string}
-#      - label: "Localization-js"
-#        name: "lacalize"
-#        file: "src/data/i18n/index.js"
-#        fields:
-#          - label: 'Code'
-#            name: 'ищвн'
-#            widget: 'code'
+      - label: "Localization-js"
+        name: "lacalize"
+        file: "src/data/i18n/index.js"
+        fields:
+          - label: 'Code'
+            name: 'body'
+            widget: 'code'
   - name: "intro-en-GB"
     label: "Intro-english"
     file: "src/en-GB/entries/introduction.md"
-    create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
@@ -93,7 +92,6 @@ collections:
   - name: "intro-es-ES"
     label: "Intro-spain"
     file: "src/es-ES/entries/introduction.md"
-    create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
@@ -129,7 +127,6 @@ collections:
   - name: "intro-ru-RU"
     label: "Intro-russian"
     file: "src/ru-RU/entries/introduction.md"
-    create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
