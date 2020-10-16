@@ -54,12 +54,25 @@ collections:
           - label: 'Code'
             name: 'body'
             widget: 'code'
-  - name: "intro-en-GB"
-    label: "Intro-english"
-    file: "src/en-GB/entries/introduction.md"
-    fields:
-      - {label: "title", name: "title", widget: "string"}
-      - {label: "Post Body", name: "body", widget: "markdown"}
+      - name: "intro-en-GB"
+        label: "Intro-english"
+        file: "src/en-GB/entries/introduction.md"
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "Post Body", name: "body", widget: "markdown"}
+      - name: "intro-es-ES"
+          label: "Intro-spain"
+          file: "src/es-ES/entries/introduction.md"
+          fields:
+            - {label: "title", name: "title", widget: "string"}
+            - {label: "Post Body", name: "body", widget: "markdown"}
+      - name: "intro-ru-RU"
+        label: "Intro-russian"
+        file: "src/ru-RU/entries/introduction.md"
+        fields:
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "Post Body", name: "body", widget: "markdown"}
+
   - name: "works-en-GB"
     label: "Work-english"
     folder: "src/en-GB/entries/work"
@@ -89,12 +102,7 @@ collections:
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
-  - name: "intro-es-ES"
-    label: "Intro-spain"
-    file: "src/es-ES/entries/introduction.md"
-    fields:
-      - {label: "title", name: "title", widget: "string"}
-      - {label: "Post Body", name: "body", widget: "markdown"}
+
   - name: "works-es-ES"
     label: "Work-spain"
     folder: "src/es-ES/entries/work"
@@ -124,12 +132,7 @@ collections:
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "Post Body", name: "body", widget: "markdown"}
-  - name: "intro-ru-RU"
-    label: "Intro-russian"
-    file: "src/ru-RU/entries/introduction.md"
-    fields:
-      - {label: "title", name: "title", widget: "string"}
-      - {label: "Post Body", name: "body", widget: "markdown"}
+
   - name: "works-ru-RU"
     label: "Work-russian"
     folder: "src/ru-RU/entries/work"
