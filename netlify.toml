@@ -12,7 +12,20 @@
         X-XSS-Protection = "1; mode=block"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy= "no-referrer-when-downgrade"
+
+[[redirects]]
+  from = "/"
+  to = "/en-GB"
+  status = 301
+
 [[redirects]]
   from = "/"
   to = "/ru-RU"
   status = 301
+  conditions = {Language = ["ru"]}
+
+[[redirects]]
+  from = "/"
+  to = "/es-ES"
+  status = 301
+  conditions = {Language = ["es"]}
