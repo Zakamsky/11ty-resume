@@ -17,7 +17,7 @@
   from = "/"
   to = "/ru-RU"
   status = 301
-  conditions = {Language = ["ru"]}
+  Language = "ru"
 
 [[redirects]]
   from = "/"
