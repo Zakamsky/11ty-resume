@@ -33,6 +33,7 @@
             &::after{
                 bottom: unset;
                 top: 100%;
+                transform: translate(-68%, 0);
             }
             &:hover::after{
                 transform: translate(-78%, 0.45rem);
