@@ -3,7 +3,6 @@
 .has-tooltip {
     &[aria-label] {
         position: relative;
-
         &::after {
             display: block;
             content: attr(aria-label);
@@ -30,5 +29,15 @@
             z-index: 100;
             transform: translate(-50%, -0.25rem);
         }
+        &.bottom-left-tooltip{
+            &::after{
+                bottom: unset;
+                top: 100%;
+            }
+            &:hover::after{
+                transform: translate(-78%, 0.45rem);
+            }
+        }
+
     }
 }

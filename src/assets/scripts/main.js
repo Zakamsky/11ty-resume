@@ -21,3 +21,6 @@ const printButton = document.querySelector('.js-print')
 printButton.addEventListener('click', () => {
     window.print()
 })
+
+let lang = window.navigator.language;
+console.log(lang)
