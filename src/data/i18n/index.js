@@ -17,12 +17,21 @@ module.exports = {
   },
 
   // General
+  in: {
+    'ru-RU': 'в',
+    'en-GB': 'in',
+    'es-ES': 'en'
+  },
   select_language: {
     'ru-RU': 'Выбрать язык',
     'en-GB': 'Select language',
     'es-ES': 'Seleccione el idioma'
   },
-
+  description: {
+    'ru-RU': 'Онлайн резюме Алексея Елькина',
+    'en-GB': 'Online Resume of Alex Elkin',
+    'es-ES': 'Currículum online de Aleks Elkin'
+  },
   email: {
     'ru-RU': 'Электронная почта email',
     'en-GB': 'Email',

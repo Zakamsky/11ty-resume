@@ -1,6 +1,6 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
-{%- set pageTitle -%}{{ author.name }}{% if author.occupation %} - {{ author.occupation }}{% endif %}{% if author.location %} in {{ author.location }}{% endif %}{%- endset -%}
-{%- set pageDescription -%}Online Resume of {{ author.name }}{%- endset -%}
+{%- set pageTitle -%}{{ 'author_name' | i18n }}{% if 'occupation' %} - {{ 'occupation' | i18n }}{% endif %}{% if author.location %} {{ 'in' | i18n }} {{ author.location }}{% endif %}{%- endset -%}
+{%- set pageDescription -%}{{ 'description' | i18n }}{%- endset -%}
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 <meta property="og:title" content="{{ pageTitle }}">
 <meta property="og:description" content="{{ pageDescription }}">
 <meta property="og:url" content="{{ absolutePageUrl }}">
-<meta property="og:locale" content="{{ meta.locale }}">
+<meta property="og:locale" content="{{ locale }}">
 <meta name="twitter:card" content="summary">
 {%- if author.avatar -%}
     {%- set avatarUrl -%}/assets/images/{{ author.avatar }}{% endset %}
@@ -36,16 +36,16 @@
 {# JSON LD #}
 <script type="application/ld+json">
     {
-        "name":"{{ author.name }}",
-        "description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
+        "name":"{{ 'author_name' | i18n }}",
+        "description":"{{ 'occupation' | i18n }}{% if author.location %} {{ 'in' | i18n }} {{ author.location }}{% endif %}",
         "author": {
             "@type":"Person",
-            "name":"{{ author.name }}"
+            "name":"{{ 'author_name' | i18n }}"
         },
         "@type":"WebSite",
         "url":"{{ meta.url }}",
         "image":"{{ meta.url }}/assets/images/{{ author.avatar }}",
-        "headline":"{{ author.name }}",
+        "headline":"{{ 'author_name' | i18n }}",
         "sameAs":[
             {%- for social in author.social -%}
                 "{{ social.url }}"{%- if not loop.last -%},{%- endif -%}

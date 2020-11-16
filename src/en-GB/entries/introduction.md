@@ -3,4 +3,4 @@
 title: About Me
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, adipisci animi assumenda autem debitis dicta doloribus error facere fugit illo iusto nulla odit, officiis pariatur quidem rerum sequi veniam voluptatem?   
+I am a web developer with 3 years of experience in the front-end and a some expirience in server technology (back end). My focus is on creating engaging, accessible & performant interfaces for humans. I am currently looking for new challenges.
