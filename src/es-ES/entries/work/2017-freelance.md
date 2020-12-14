@@ -1,12 +1,11 @@
 ---
-title: Веб-разработчик полного цикла 
-organization: Фриланс, самозанятый
+title: desarrollador web 
+organization: freelance
 organizationUrl: https://elkin.dev
-location: Россия, РФ
+location: Rusia, Ru
 start: 2017-05-03
 ---
 
-(совмещение)
 
 #### Обязанности:
 

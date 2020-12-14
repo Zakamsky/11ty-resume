@@ -1,13 +1,13 @@
 ---
-title: Наставник интенсивных курсов 
-organization: HTML Академия 
+title: Mentor 
+organization: HTML Academia 
 organizationUrl: https://htmlacademy.ru/
-location: Санкт Петербург, РФ 
+location: San Petersburgo, Ru 
 start: 2020-01-18
 ---
 
-(удаленно, совмещение)
+(remota)
 #### Обязанности:
 
-Проведение код ревью, консультации и помощь студентам.
+Acompañando el proceso educativo de los alumnos, ayudando, respondiendo preguntas, realizando una revisión de código y aceptando pull request.
 
