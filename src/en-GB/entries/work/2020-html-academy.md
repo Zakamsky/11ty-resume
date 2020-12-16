@@ -1,5 +1,5 @@
 ---
-title: Tutor
+title: Mentor
 organization: HTML academy 
 organizationUrl: https://htmlacademy.ru/
 location: Saint Petersburg, RU 
