@@ -63,6 +63,9 @@
         background: transparent !important;
     }
 
+    .section {
+        //page-break-inside: avoid; //the rule is undesirable if there is a lot of information in the work section
+    }
     .section__title {
         border-color: #b5b5b5;
     }
