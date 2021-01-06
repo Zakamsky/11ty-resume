@@ -7,7 +7,6 @@ start: 2020-01-18
 ---
 
 (remota)
-#### Обязанности:
 
 Acompañando el proceso educativo de los alumnos, ayudando, respondiendo preguntas, realizando una revisión de código y aceptando pull request.
 
