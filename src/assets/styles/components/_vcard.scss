@@ -25,8 +25,9 @@
     }
     &__pronouns {
         font-size: 1.125rem;
-        font-family: $font-family-serif;
-        color: $gray;
+        font-family: $font-family-base;
+        color: darken($gray, 48%);
+        font-weight: 300;
     }
     &__link {
         display: flex;
@@ -35,7 +36,7 @@
 
         @include hover-focus {
             text-decoration: none;
-            
+
             .vcard__link-text {
                 text-decoration: underline;
             }
@@ -43,6 +44,9 @@
 
         .icon {
             margin-right: 0.125em;
+        }
+        &.--dark{
+            color: $brand-green-dark;
         }
     }
 

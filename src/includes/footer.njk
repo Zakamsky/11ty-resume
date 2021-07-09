@@ -2,7 +2,7 @@
     <div class="container utl-space-between">
         <p>&copy; {{ 'author_name' | i18n }}
             {% if author.website %}
-                <a class="vcard__link u-url" aria-label="{{ 'website' | i18n }}" href="{{ author.website }}">
+                <a class="vcard__link  --dark" aria-label="{{ 'website' | i18n }}" href="{{ author.website }}">
                     <span class="vcard__link-text">{{ author.website | stripProtocol }}</span>
                 </a>
             {% endif %}

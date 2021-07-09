@@ -10,6 +10,9 @@ Estoy interesado en trabajar en cometidos nuevos e interesantes, pero no evitand
 Experiencia no especializada que puede ser útil para el trabajo: la experiencia de dirigir un pequeño grupo de empleados. 
 Experiencia de enseñanza y tutoría. 
 
+### technologies:
+--- 
+
 #### Frontend
 
 HTML-5, CSS-3, semántica, validación, Grid, Flexbox, CSS-animación.
@@ -37,7 +40,7 @@ Git, Github
 
 Estudió los fundamentos de la optimización de búsqueda (SEO) y la optimización de la interfaz para la interacción del usuario (UI/UX). 
 
-Estudio nuevas herramientas y tecnologías según sea necesario. Actualmente estoy profundizando en JS (ES6+) y JS frameworks.
+Estudio nuevas herramientas y tecnologías según sea necesario. Actualmente estoy profundizando en React y TS.
 
 
 ### Aficiones

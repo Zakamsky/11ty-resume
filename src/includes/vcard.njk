@@ -1,7 +1,7 @@
 <div class="vcard h-card">
     {% if author.avatar %}
         {%- set avatarUrl -%}/assets/images/{{ author.avatar }}{% endset %}
-        <img class="vcard__avatar u-photo" src="{{ avatarUrl | base64file }}" width="200" height="200" alt="{{ 'author_name' | i18n }}" />
+        <img class="vcard__avatar u-photo" src="{{ avatarUrl }}" width="200" height="200" alt="{{ 'author_name' | i18n }}" />
     {% endif %}
 
     <div class="vcard__content">
@@ -18,7 +18,7 @@
                 <span aria-hidden="true">&middot;</span>
                 <span class="p-locality">{{ author.location }}</span>
             {% endif %}
-        </p> 
+        </p>
 
         <div class="vcard__contact p-contact">
             {% if author.email %}
@@ -51,7 +51,7 @@
                         </a>
                     {% endfor %}
                 </div>
-            {% endif %} 
+            {% endif %}
         </div>
     </div>
 </div>

@@ -21,22 +21,27 @@ $container-max-width: 1200px;
 
 $gray-darkest: #373a3c;
 $gray-dark: #55595c;
-$gray: #818a91;
+//$gray: #818a91;
+$gray: #e2e9e7;
 $gray-light: #eceeef;
 $gray-lightest: #f7f7f9;
 
 // Brand Colors
 
 $brand-blue: #005b96;
+//$brand-green: #00AE8B;
+$brand-green: #02866c;
+$brand-green-dark: darken($brand-green, 2.5%);
 $brand-red: #fc6767;
+$brand-orange: #FF6400;
 
 // Color Mappings
 
 $bg-color: #fff;
 $text-color: $gray-darkest;
 
-$primary-color: $brand-blue;
-$secondary-color: $brand-red;
+$primary-color: $brand-green;
+$secondary-color: $brand-orange;
 
 // Typography
 //
