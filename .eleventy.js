@@ -73,7 +73,7 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    // example
+
     const locales = ['en-GB', 'es-ES', 'ru-RU']
     locales.forEach((name) => {
         const introduction = 'introduction_'+ name
@@ -88,7 +88,7 @@ module.exports = function (config) {
         });
     })
 
-    // END of example
+
     const collections = ['work', 'education']
 
     collections.forEach((name) => {

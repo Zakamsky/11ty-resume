@@ -11,9 +11,9 @@ module.exports = {
     'es-ES': 'Él'
   },
   occupation: {
-    'ru-RU': 'Front-End разработчик',
+    'ru-RU': 'Front-End Developer',
     'en-GB': 'Front-End Developer',
-    'es-ES': 'Desarrollador de front-end'
+    'es-ES': 'Front-End Developer'
   },
 
   // General
@@ -122,25 +122,4 @@ module.exports = {
     'en-GB': 'native',
     'es-ES': 'nativo'
   }
-
-
-  // hello_name: {
-  //   'ru-RU': '{{ name }}مرحبا',
-  //   'en-GB': 'Hello, {{ name }}!',
-  //   'es-ES': '¡Hola {{ name }}!'
-  // },
-  //
-  // // Nested organisation example
-  // actions: {
-  //   click: {
-  //     'ru-RU': 'انقر',
-  //     'en-GB': 'Click',
-  //     'es-ES': 'Hacer clic'
-  //   },
-  //   loading: {
-  //     'ru-RU': 'جار التحميل',
-  //     'en-GB': 'Loading',
-  //     'es-ES': 'Cargando'
-  //   }
-  // }
 };

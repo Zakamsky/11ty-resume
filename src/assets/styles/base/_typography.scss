@@ -6,14 +6,19 @@ h5,
 h6 {
     margin: 0;
     line-height: 1.2;
-    font-family: $font-family-serif;
-    font-weight: 500;
+    //font-weight: 460;
     text-rendering: optimizeLegibility;
+    font-family: $font-family-titles;
+
+    @supports (font-variation-settings: normal) {
+        font-family: $font-family-titles-vars;
+    }
 }
 
 h1 {
     font-size: 3.5rem;
     line-height: 1;
+    font-weight: 400;
 
     @include mq(lg) {
         font-size: 4.5rem;
@@ -22,15 +27,22 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    font-weight: 460;
 }
 
 h3 {
     font-size: 1.75rem;
+    font-weight: 460;
 }
 h4{
     margin-top: .5rem;
     margin-bottom: 0.2rem;
     font-size: 1.3rem;
+}
+h4,
+h5,
+h6 {
+    font-weight: 500;
 }
 
 p {
