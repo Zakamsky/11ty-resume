@@ -4,7 +4,7 @@ organization: HTML Академия
 organizationUrl: https://htmlacademy.ru/
 location: Санкт Петербург, РФ
 start: 2020-01-18
-end: " "
+
 ---
 (удаленно)
 Интенсивы:
