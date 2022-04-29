@@ -46,14 +46,12 @@ Estudio nuevas herramientas y tecnologías según sea necesario. Actualmente est
 ### Aficiones
 --- 
 
-Mis pasatiempos me ayudan a evolucionar: 
+* Tiro con arco
 
-* Tiro con arco mejora la entereza y la concentración.
+* Correr
 
-* Correr satura el cerebro de sangre y nivela la circulación después de un trabajo quieto.
+* Los podcasts sobre web development
 
-* Los podcasts permiten quedarme al día con las últimas noticias del mundo del desarrollo web, escuchándolos cómodamente durante las carreras.
+* El Hiking y el Ciclismo
 
-* El Hiking y el Ciclismo ayudan a descansar y aliviar el estrés al final de la semana laboral.
-
-* Los juegos de mesa desarrollan el pensamiento analítico y las habilidades de comunicación.
+* Los juegos de mesa

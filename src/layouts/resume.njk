@@ -48,7 +48,7 @@ layout: base
                 <h2 class="section__title">{{ 'languages' | i18n }}</h2>
                 <ul class="bulletlist">
                 {% for language in author.languages %}
-                    <li class="p-skill">{{ language.name | i18n }} ({{ language.level | i18n }})</li>
+                    <li class="p-skill">{{ language.name | i18n }}{#({{ language.level | i18n }})#}</li>
                 {% endfor %}
                 </ul>
             </section>
