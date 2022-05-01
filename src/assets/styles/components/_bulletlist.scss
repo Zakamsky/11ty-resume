@@ -1,9 +1,9 @@
 .bulletlist {
     list-style: none;
-    padding-left: 1.5em;
 
     li {
         position: relative;
+        padding-left: 1.5em;
 
         &::before {
             content: '';
@@ -16,7 +16,16 @@
             transform: translate(-50%, 20%);
             position: absolute;
             top: 0.5em;
-            left: -1em;
+            left: 0.5em;
+        }
+    }
+
+    &--columns {
+        columns: 2;
+        column-gap: 16px;
+
+        @include mq(md, true)  {
+            columns: 3;
         }
     }
 }

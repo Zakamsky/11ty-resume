@@ -38,6 +38,16 @@
         page-break-after: avoid;
     }
 
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+
     // ELEMENTS
     // PRINT STYLE ADJUSTMENTS
 
@@ -90,5 +100,15 @@
     }
     .language-list{
         display: none;
+    }
+
+    .lead p,
+    .entry p{
+        font-size: 14px;
+        //line-height: 1.5;
+    }
+
+    .section {
+        padding-bottom: 0;
     }
 }

@@ -5,42 +5,71 @@ layout: base
 <main class="main container">
 
     {% set introduction = collections["introduction_" + locale] %}
-        {% if introduction.length %}
-            {% set intro = introduction|first %}
-            <section class="section" id="section-introduction" data-spellcheck>
-                <h2 class="section__title">{{ intro.data.title }}</h2>
-                <div class="lead p-summary">
-                    {{ intro.templateContent | safe }}
+    {% if introduction.length %}
+        {% set intro = introduction|first %}
+        <section class="section" id="section-introduction" data-spellcheck>
+            <h2 class="section__title">{{ intro.data.title }}</h2>
+            <div class="lead p-summary">
+                {{ intro.templateContent | safe }}
+            </div>
+
+            {% set content = collections["content_" + locale] %}
+            {% if content.length %}
+                {% set custom = content|first %}
+                <div  data-spellcheck>
+                    {#            {% if custom.data.title %}#}
+                    {#                <h2 class="section__title">{{ custom.data.title }}</h2>#}
+                    {#            {% endif %}#}
+                    <div class="markdown">
+                        {{ custom.templateContent | safe }}
+                    </div>
                 </div>
-            </section>
-        {% endif %}
-
-        <section class="section" id="section-experience">
-            <h2 class="section__title">{{ 'experience' | i18n }}</h2>
-{#            {% set entries = collections.work %}#}
-            {% set entries = collections["work_" + locale] %}
-            {% set microformat = "p-experience" %}
-            {% include "entrylist.njk" %}
+            {% endif %}
         </section>
+    {% endif %}
 
-        <section class="section" id="section-education">
-            <h2 class="section__title">{{ 'education' | i18n }}</h2>
-            {% set entries = collections["education_" + locale] %}
-            {% set microformat = "p-education" %}
-            {% include "entrylist.njk" %}
-        </section>
-
-    {% if author.skills or author.languages %}
-        <div class="grid grid--2col">
-            {% if author.skills %}
-            <section class="section section--half" id="section-skills">
-                <h2 class="section__title">{{ 'skills' | i18n }}</h2>
-                <ul class="bulletlist">
+    {% if author.skills %}
+        <section class="section section--half" id="section-skills">
+            <h2 class="section__title">{{ 'skills' | i18n }}</h2>
+            <ul class="bulletlist bulletlist--columns">
                 {% for skill in author.skills %}
                     <li class="p-skill">{{ skill }}</li>
                 {% endfor %}
-                </ul>
-            </section>
+
+                {% if author.otherSkills %}
+                    {% for otherSkill in author.otherSkills %}
+                        <li class="p-skill"><i>{{ otherSkill }}</i></li>
+                    {% endfor %}
+                {% endif %}
+            </ul>
+        </section>
+    {% endif %}
+
+    <section class="section" id="section-experience">
+        <h2 class="section__title">{{ 'experience' | i18n }}</h2>
+        {% set entries = collections["work_" + locale] %}
+        {% set microformat = "p-experience" %}
+        {% include "entrylist.njk" %}
+    </section>
+
+    <section class="section" id="section-education">
+        <h2 class="section__title">{{ 'education' | i18n }}</h2>
+        {% set entries = collections["education_" + locale] %}
+        {% set microformat = "p-education" %}
+        {% include "entrylist.njk" %}
+    </section>
+
+    {% if author.hobby or author.languages %}
+        <div class="grid grid--2col">
+            {% if author.hobby %}
+                <section class="section section--half" id="section-skills">
+                    <h2 class="section__title">{{ 'interests' | i18n }}</h2>
+                    <ul class="bulletlist">
+                        {% for hobby in author.hobby %}
+                            <li class="p-skill">{{ hobby | i18n }}</li>
+                        {% endfor %}
+                    </ul>
+                </section>
             {% endif %}
 
             {% if author.languages %}
@@ -54,19 +83,6 @@ layout: base
             </section>
             {% endif %}
         </div>
-    {% endif %}
-
-    {% set content = collections["content_" + locale] %}
-    {% if content.length %}
-        {% set custom = content|first %}
-        <section class="section" id="section-custom" data-spellcheck>
-            {% if custom.data.title %}
-                <h2 class="section__title">{{ custom.data.title }}</h2>
-            {% endif %}
-            <div class="markdown">
-                {{ custom.templateContent | safe }}
-            </div>
-        </section>
     {% endif %}
 
 </main>

@@ -36,12 +36,30 @@
     }
   ],
   "skills": [
-    "HTML",
-    "CSS",
-    "Javascript",
-    "PHP basic",
-    "Vue",
-    "Git"
+    "HTML (njk/twig)",
+    "CSS (scss/sass)",
+    "JavaScript",
+    "Angular",
+    "React",
+    "typeScript",
+    "UI/UX",
+    "JAMstack",
+    "A11y Accessibility",
+    "npm",
+    "Gulp/Webpack",
+    "Git",
+    "Email's markup"
+  ],
+  "otherSkills": [
+    "teamwork",
+    "codereview",
+    "Learning Potential"
+  ],
+  "hobby": [
+    "Archery",
+    "runing",
+    "Podcasts",
+    "Hiking",
+    "Games"
   ]
-
 }

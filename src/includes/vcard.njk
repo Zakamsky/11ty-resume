@@ -41,7 +41,7 @@
             {% endif %}
 
             {% if author.social %}
-                <div class="vcard__social">
+{#                <div class="vcard__social">#}
                     {% for social in author.social %}
                         <a class="vcard__link" href="{{ social.url }}" aria-label="{{ social.name }}" rel="me">
                             {%- set isSocialIcon = true -%}
@@ -50,7 +50,7 @@
                             <span class="sr-only">on {{ social.name }}</a>
                         </a>
                     {% endfor %}
-                </div>
+{#                </div>#}
             {% endif %}
         </div>
     </div>

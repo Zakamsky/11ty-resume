@@ -90,7 +90,7 @@ module.exports = {
   interests: {
     'ru-RU': 'Увлечения',
     'en-GB': 'Interests',
-    'es-ES': 'Intereses'
+    'es-ES': 'Aficiones'
   },
   Spanish: {
     'ru-RU': 'Испанский',
@@ -121,5 +121,31 @@ module.exports = {
     'ru-RU': 'родной',
     'en-GB': 'native',
     'es-ES': 'nativo'
+  },
+  Archery: {
+    "ru-RU": "Стрельба из лука",
+    "en-GB": "Archery",
+    "es-ES": "Tiro con Arco"
+  },
+  runing: {
+    "ru-RU": "Бег",
+    "en-GB": "Runing",
+    "es-ES": "Correr"
+  },
+  Podcasts: {
+    "ru-RU": "Подкасты о разработке",
+    "en-GB": "Podcasts about web development",
+    "es-ES": "Los podcasts sobre web development"
+  },
+  Hiking: {
+    "ru-RU": "Хайкинг и велопрогулки",
+    "en-GB": "Hiking and cycling",
+    "es-ES": "Senderismo y ciclismo"
+  },
+  Games: {
+    "ru-RU": "Настольные игры",
+    "en-GB": "Table top games",
+    "es-ES": "Los juegos de mesa"
   }
+
 };
