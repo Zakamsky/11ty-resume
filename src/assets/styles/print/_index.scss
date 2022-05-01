@@ -34,7 +34,8 @@
 
     h1,
     h2,
-    h3 {
+    h3,
+    h4 {
         page-break-after: avoid;
     }
 
@@ -94,10 +95,10 @@
         -webkit-print-color-adjust: exact !important;
     }
 
-    .entrylist__item,
-    .entry {
-        page-break-inside: avoid;
-    }
+    //.entrylist__item,
+    //.entry {
+    //    page-break-inside: avoid;
+    //}
     .language-list{
         display: none;
     }
