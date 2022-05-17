@@ -7,5 +7,7 @@ start: 2019-05-07
 end: 2020-06-21
 ---
 
+- Frontend development, markup approval from markup developers, integration with backend api and CMS PrestaShop. Legacy projects support, working with time logging, teleconferencing, teamwork.
 
-(remote)
+- I have developed modern layouts using the fallback to support older browsers.
+  Tweaked the usability of the corporate wiki, improved readability through typography.

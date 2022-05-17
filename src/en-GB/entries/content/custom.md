@@ -3,13 +3,8 @@ tags: custom
 title: Información general
 ---
 
-Para mí es muy importante el desarrollo profesional, me gustaría estar en un equipo donde pueda aprender, adoptar las mejores prácticas, busque asesoramiento y pueda ofrecer mis propias soluciones, además participar activamente en un proceso de trabajo. 
+My experience includes the development of adaptive cross-browser applications, with a focus on reliability and performance. I try to see each project as a set of independent reusable components, such an implementation increases stability and facilitates refactoring.
 
-Estoy interesado en trabajar en cometidos nuevos e interesantes, pero no evitando las tareas rutinarias y constantes. Estudio y trato de aplicar nuevas tecnologías, no me aparto de las antiguas.
+Currently working on egambling with Angular and TypeScript. I do a lot of research to keep my skills up to date and expand my horizons.
 
-Experiencia no especializada que puede ser útil para el trabajo: la experiencia de dirigir un pequeño grupo de empleados. 
-Experiencia de enseñanza y tutoría.
-
-Estudió los fundamentos de la optimización de búsqueda (SEO) y la optimización de la interfaz para la interacción del usuario (UI/UX). 
-
-Estudio nuevas herramientas y tecnologías según sea necesario. Actualmente estoy profundizando en React & TS.
+I like projects with good structure and room for creativity.

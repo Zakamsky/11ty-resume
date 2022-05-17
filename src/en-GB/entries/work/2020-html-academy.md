@@ -8,4 +8,8 @@ start: 2020-01-18
 
 (remote)
 
-Accompanying the learning process of students, assistance and answers to questions, conducting code-reviews and adoption pull requests.
+- Mentor in HTML, CSS, JavaScript and email's markup intensives.
+  Helping and motivating students, answering their questions, code-reviewing and pull requests approving.
+
+- Regularly ranked among the top mentors based on student feedback and 10/10 grades received.
+  Received a commendation for contribution to course development.

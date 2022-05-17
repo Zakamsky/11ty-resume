@@ -8,7 +8,7 @@ layout: base
     {% if introduction.length %}
         {% set intro = introduction|first %}
         <section class="section" id="section-introduction" data-spellcheck>
-            <h2 class="section__title">{{ intro.data.title }}</h2>
+            <h2 class="section__title">{{ 'AboutMe' | i18n }}</h2>
             <div class="lead p-summary">
                 {{ intro.templateContent | safe }}
             </div>

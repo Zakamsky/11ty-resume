@@ -3,10 +3,9 @@ tags: custom
 title: Información general
 ---
 
-Para mí es muy importante el desarrollo profesional, me gustaría estar en un equipo donde pueda aprender, adoptar las mejores prácticas, busque asesoramiento y pueda ofrecer mis propias soluciones, además participar activamente en un proceso de trabajo. 
+Mi experiencia incluye el desarrollo de aplicaciones adaptativas entre navegadores, con un enfoque en la confiabilidad y el rendimiento cuantitativo.
+Cada proyecto trato de ver como un conjunto de componentes reutilizables independientes, esta implementación aumenta la estabilidad y facilita la refactorización.
 
-Estoy interesado en trabajar en cometidos nuevos e interesantes, pero no evitando las tareas rutinarias y constantes. Estudio y trato de aplicar nuevas tecnologías, no me aparto de las antiguas.
+Actualmente estoy trabajando en el ámbito de egambling con Angular y TypeScript. Hago mucha investigación para mantener mis habilidades actualizadas y ampliar mis horizontes.
 
-Experiencia no especializada que puede ser útil para el trabajo: la experiencia de dirigir un pequeño grupo de empleados. 
-Experiencia de enseñanza y tutoría. 
-
+Me gustan los proyectos, con buena estructura y espacio para la creatividad.

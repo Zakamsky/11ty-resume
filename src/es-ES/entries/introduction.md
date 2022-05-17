@@ -1,6 +1,6 @@
 ---
 tags: introduction
-title: Sobre Me
+title: Sobre mí
 ---
 
-Soy un front end developer. Mi objetivo es crear interfaces atractivas, accesibles y eficaces para los seres humanos. Actualmente estoy buscando nuevos retos.
+Desarrollador de frontend responsable con experiencia como mentor. Mi objetivo es crear interfaces atractivas, eficientes y accesibles para las personas.

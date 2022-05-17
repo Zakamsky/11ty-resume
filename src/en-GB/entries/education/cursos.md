@@ -1,6 +1,6 @@
 ---
 title: JS, JsProMarathon, React, ReactProMarathon
-organization: Марафоны от Зара Захарова
+organization: Marathons by Zar Zakharov
 organizationUrl: https://it-course.online/
 location: online
 start: 2021-04-01

@@ -80,12 +80,12 @@ module.exports = {
   skills: {
     'ru-RU': 'Навыки',
     'en-GB': 'Skills',
-    'es-ES': 'Habilidad'
+    'es-ES': 'Habilidades'
   },
   languages: {
     'ru-RU': 'Языки',
     'en-GB': 'Languages',
-    'es-ES': 'Idioma'
+    'es-ES': 'Idiomas'
   },
   interests: {
     'ru-RU': 'Увлечения',
@@ -100,7 +100,7 @@ module.exports = {
   English: {
     'ru-RU': 'Английский',
     'en-GB': 'English',
-    'es-ES': 'Ingles'
+    'es-ES': 'Inglés'
   },
   Russian: {
     'ru-RU': 'Русский',

@@ -1,5 +1,5 @@
 ---
-title: Information systems and programming
+title: Sistemas de información y programación
 organization: Permskiy khimiko-tekhnologicheskiy tekhnikum 
 organizationUrl: https://phtt.ru/
 location: Perm, RU
