@@ -13,25 +13,9 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy= "no-referrer-when-downgrade"
 
-[[redirects]]
-  from = "/"
-  to = "/ru-RU"
-  status = 301
-  conditions = {Language = ["ru"]}
-  
-[[redirects]]
-  from = "/"
-  to = "/ru-RU"
-  status = 301
-  conditions = {Country = ["RU"]}
+
 
 [[redirects]]
   from = "/"
-  to = "/es-ES"
-  status = 301
-  conditions = {Language = ["es"]}
-
-[[redirects]]
-  from = "/"
-  to = "/ru-RU"
+  to = "/en-GB"
   status = 301
