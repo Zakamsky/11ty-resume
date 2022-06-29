@@ -96,9 +96,9 @@
     }
 
     //.entrylist__item,
-    //.entry {
-    //    page-break-inside: avoid;
-    //}
+    .entry {
+        page-break-inside: avoid;
+    }
     .language-list{
         display: none;
     }

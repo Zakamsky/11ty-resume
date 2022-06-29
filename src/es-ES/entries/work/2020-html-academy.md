@@ -1,5 +1,5 @@
 ---
-title: Tutor del curso intensivo 
+title: Tutor del Frontend
 organization: HTML Academia 
 organizationUrl: https://htmlacademy.ru/
 location: San Petersburgo, Ru 

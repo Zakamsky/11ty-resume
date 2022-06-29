@@ -1,5 +1,5 @@
 ---
-title: Front-End Developer
+title: Frontend Developer
 organization: PrestaWeb 
 organizationUrl: https://prestaweb.ru/
 location: Ekaterinburg, Ru

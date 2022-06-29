@@ -1,5 +1,5 @@
 ---
-title: Наставник интенсивных курсов
+title: Наставник Frontend курсов
 organization: HTML Академия
 organizationUrl: https://htmlacademy.ru/
 location: Санкт Петербург, РФ
