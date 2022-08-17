@@ -1,8 +1,5 @@
 module.exports = [
-  {
-    label: 'Русский',
-    code: 'ru-RU'
-  },
+
   {
     label: 'English',
     code: 'en-GB'
@@ -10,5 +7,9 @@ module.exports = [
   {
     label: 'Español',
     code: 'es-ES'
+  },
+  {
+    label: 'Русский',
+    code: 'ru-RU'
   }
 ];
