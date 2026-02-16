@@ -4,6 +4,7 @@ organization: HTML academy
 organizationUrl: https://htmlacademy.ru/
 location: Saint Petersburg, RU 
 start: 2020-01-18
+end: 2022-10-08
 ---
 
 (remote)

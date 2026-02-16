@@ -4,6 +4,7 @@ organization: HTML Academia
 organizationUrl: https://htmlacademy.ru/
 location: San Petersburgo, Ru 
 start: 2020-01-18
+end: 2022-10-08
 ---
 
 (Teletrabajo, Combinación)
