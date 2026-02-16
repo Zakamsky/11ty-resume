@@ -6,8 +6,8 @@
     "start": "npm run dev",
     "dev": "run-s clean eleventy:dev",
     "build": "run-s clean eleventy:prod",
-    "eleventy:dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
-    "eleventy:prod": "cross-env ELEVENTY_ENV=production eleventy",
+    "eleventy:dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider ELEVENTY_ENV=development eleventy --serve",
+    "eleventy:prod": "cross-env NODE_OPTIONS=--openssl-legacy-provider ELEVENTY_ENV=production eleventy",
     "clean": "del-cli dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
