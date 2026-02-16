@@ -11,9 +11,9 @@ module.exports = {
     'es-ES': 'Él'
   },
   occupation: {
-    'ru-RU': 'Front-End Developer',
-    'en-GB': 'Front-End Developer',
-    'es-ES': 'Front-End Developer'
+    'ru-RU': 'Front-End Engineer',
+    'en-GB': 'Front-End Engineer',
+    'es-ES': 'Front-End Engineer'
   },
 
   // General
