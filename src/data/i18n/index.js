@@ -144,8 +144,8 @@ module.exports = {
   },
   Games: {
     "ru-RU": "Настольные игры",
-    "en-GB": "Table top games",
-    "es-ES": "Los juegos de mesa"
+    "en-GB": "Board games",
+    "es-ES": "Juegos de mesa"
   }
 
 };
