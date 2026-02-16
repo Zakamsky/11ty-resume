@@ -1,9 +1,10 @@
 [build]
-    command = "npm run build"
+    command = "npm run clean && npm run eleventy:prod:netlify"
     publish = "dist"
 
 [context.production.environment]
     ELEVENTY_ENV = "production"
+    NODE_VERSION = "16"
 
 [[headers]]
     for = "/*"
