@@ -3,7 +3,9 @@ title: Frontend Engineer
 organization: Rankia S.L.
 organizationUrl: https://www.rankia.com/
 location: Valencia, Spain
+mode: hybride, then remote
 start: 2022-09-07
+end: 2022-02-12
 ---
 
 (Hybrid, then full remote)
