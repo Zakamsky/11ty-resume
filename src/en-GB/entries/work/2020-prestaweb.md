@@ -3,6 +3,7 @@ title: Frontend Developer
 organization: PrestaWeb 
 organizationUrl: https://prestaweb.ru/
 location: Ekaterinburg, RU
+mode: on-site
 start: 2019-05-07
 end: 2020-06-21
 ---
