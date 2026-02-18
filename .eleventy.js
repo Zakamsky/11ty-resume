@@ -50,6 +50,13 @@ module.exports = function (config) {
     //     return count === 1 ? term : `${term}s`;
     // });
 
+    // Translation filter for use in markdown content
+    config.addFilter('t', function (key, locale) {
+        const entry = translations[key];
+        if (!entry) return key;
+        return entry[locale] || entry['en-GB'] || key;
+    })
+
     // Icon Sprite
     config.addNunjucksAsyncShortcode('iconsprite', iconsprite)
 

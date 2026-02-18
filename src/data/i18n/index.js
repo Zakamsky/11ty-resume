@@ -13,6 +13,9 @@ module.exports = {
   occupation: {
     'en-GB': 'Senior Fullstack Developer'
   },
+  yearsOfExperience: {
+    'en-GB': '8'
+  },
 
   // General
   in: {
