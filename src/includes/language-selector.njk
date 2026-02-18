@@ -6,7 +6,7 @@
     {% for locale in locales -%}
         {% if locale.code == 'ru-RU' %}
 
-            {% if lang === 'ru' %}
+            {# {% if lang === 'ru' %} #}
                 <li class="language-list__item">
                     <a class="language-list__link has-tooltip bottom-left-tooltip"
                        href="/{{ locale.code }}/{{ pageUrl }}"
@@ -20,7 +20,7 @@
 
                     </a>
                 </li>
-            {% endif %}
+            {# {% endif %} #}
         {% else %}
           <li class="language-list__item">
             <a class="language-list__link has-tooltip bottom-left-tooltip"
