@@ -3,8 +3,8 @@ tags: custom
 title: Información general
 ---
 
-My experience includes the development of adaptive cross-browser applications, with a focus on reliability and performance. I try to see each project as a set of independent reusable components, such an implementation increases stability and facilitates refactoring.
+I participate in the full development lifecycle - from requirements definition to release, CI/CD pipeline configuration, and ongoing support.
 
-Currently working on egambling with Angular and TypeScript. I do a lot of research to keep my skills up to date and expand my horizons.
+In my previous role, I worked cross-functionally with analysts and designers to launch financial market analytics platforms across multiple international regions. These were not simply localized versions of a single product: each platform was adapted to specific regulatory requirements, business logic, and cultural characteristics of its target market. My responsibilities included designing and implementing reusable component architectures and unified solutions that ensured consistency and scalability across several related yet technically distinct products.
 
-I like projects with good structure and room for creativity.
+My most recent open-source contribution is kapy.bar, a social network built with Vue.js on the frontend and Python on the backend, where I focused on improving frontend architecture and overall user experience.

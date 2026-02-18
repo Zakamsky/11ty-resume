@@ -3,9 +3,8 @@ tags: custom
 title: Información general
 ---
 
-Mi experiencia incluye el desarrollo de aplicaciones adaptativas entre navegadores, con un enfoque en la confiabilidad y el rendimiento cuantitativo.
-Cada proyecto trato de ver como un conjunto de componentes reutilizables independientes, esta implementación aumenta la estabilidad y facilita la refactorización.
+Participo en todo el ciclo de desarrollo - desde la definición de requisitos hasta el lanzamiento, la configuración de pipelines de CI/CD y el soporte continuo.
 
-Actualmente estoy trabajando en el ámbito de egambling con Angular y TypeScript. Hago mucha investigación para mantener mis habilidades actualizadas y ampliar mis horizontes.
+En mi puesto anterior trabajé en colaboración transversal con analistas y diseñadores para lanzar plataformas de analítica de mercados financieros en diferentes regiones internacionales. No se trataba simplemente de versiones localizadas de un mismo producto: cada plataforma se adaptaba a requisitos regulatorios específicos, a la lógica de negocio y a las particularidades culturales de cada mercado. Mis responsabilidades incluían el diseño e implementación de arquitecturas de componentes reutilizables y soluciones unificadas que garantizaban consistencia y escalabilidad en varios productos relacionados pero técnicamente distintos.
 
-Me gustan los proyectos, con buena estructura y espacio para la creatividad.
+Mi contribución más reciente al open source es kapy.bar, una red social desarrollada con Vue.js en el frontend y Python en el backend, donde trabajé en la mejora de la arquitectura del frontend y de la experiencia de usuario.

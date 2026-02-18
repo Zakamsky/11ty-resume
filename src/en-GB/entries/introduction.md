@@ -1,6 +1,5 @@
 ---
-
 title: About Me
 ---
 
-Responsible frontend developer with mentoring experience. My focus is on creating engaging, accessible & performant interfaces for humans.
+Senior Fullstack Developer with 8 years of experience in software development and mentoring, focused on frontend architecture and building reliable, high-performance, and accessible web applications.
