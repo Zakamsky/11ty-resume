@@ -3,11 +3,11 @@ title: Frontend Engineer
 organization: Rankia S.L.
 organizationUrl: https://www.rankia.com/
 location: Valencia, España
+mode: híbrido, luego remoto
 start: 2022-09-07
 
 ---
 
-(Híbrido, luego remoto completo)
 
 Como Frontend Developer, fui responsable de la implementación y el mantenimiento de funcionalidades del lado del cliente, con un fuerte enfoque en rendimiento, escalabilidad y mantenibilidad. Desarrollé formularios dinámicos de captación de leads, módulos comparadores de productos y bloques personalizados para un editor de texto enriquecido, además de mejorar y refactorizar funcionalidades existentes.
 

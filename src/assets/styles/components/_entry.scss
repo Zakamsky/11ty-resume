@@ -24,6 +24,10 @@
         font-size: 1.125rem;
     }
 
+    &__mode {
+        color: $gray-middle;
+    }
+
     &__content {
         //max-width: 60ch;
         * + * {

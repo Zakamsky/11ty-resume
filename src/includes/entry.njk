@@ -27,6 +27,10 @@
                     <span aria-hidden="true">&middot;</span>
                     <span class="p-location">{{ entry.data.location }}</span>
                 {% endif %}
+                {% if entry.data.mode %}
+                    <span aria-hidden="true">&middot;</span>
+                    <span class="entry__mode">{{ entry.data.mode }}</span>
+                {% endif %}
             </p>
         {% endif %}
     </div>
