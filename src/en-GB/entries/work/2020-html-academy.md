@@ -6,6 +6,10 @@ location: Saint Petersburg, RU
 mode: remote, partial
 start: 2020-01-18
 end: 2022-10-08
+skills:
+    - CSS/HTML
+    - JavaScript
+    - React
 ---
 
 - Mentor in HTML, CSS, JavaScript, and email markup intensives.

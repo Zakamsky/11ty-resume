@@ -35,6 +35,14 @@
         {% endif %}
     </div>
 
+    {% if entry.data.skills %}
+        <ul class="entry__skills">
+            {% for skill in entry.data.skills %}
+                <li class="entry__skill">{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
     {% if entry.templateContent %}
         <div class="entry__content p-summary" data-spellcheck>
             {{ entry.templateContent | safe }}

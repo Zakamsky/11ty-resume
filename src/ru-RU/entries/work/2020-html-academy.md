@@ -6,6 +6,10 @@ location: Санкт Петербург, РФ
 mode: удаленно, совмещение
 start: 2020-01-18
 end: 2022-10-08
+skills:
+    - CSS/HTML
+    - JavaScript
+    - React
 ---
 
 наставник на интенсивах по HTML, CSS, JavaScript и Вёрстке email-рассылок

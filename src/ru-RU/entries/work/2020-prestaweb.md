@@ -6,6 +6,11 @@ location: Екатеринбург, РФ
 mode: офис
 start: 2019-05-07
 end: 2020-06-21
+skills:
+    - PrestaShop
+    - JavaScript
+    - CSS/HTML
+    - PHP
 ---
 
 #### Обязанности:

@@ -5,6 +5,11 @@ organizationUrl: https://www.rankia.com/
 location: Валенсия, Испания
 mode: гибрид, затем удалённо
 start: 2022-09-07
+skills:
+    - React
+    - TypeScript
+    - Node.js
+    - Ruby on Rails
 
 ---
 
