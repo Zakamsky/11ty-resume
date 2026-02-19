@@ -1,5 +1,5 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
-{%- set pageTitle -%}{{ 'author_name' | i18n }}{% if 'occupation' %} - {{ 'occupation' | i18n }}{% endif %}{% if author.location %} {{ 'in' | i18n }} {{ author.location }}{% endif %}{%- endset -%}
+{%- set pageTitle -%}{{ 'author_name' | i18n }}{% if author.occupation %} - {{ author.occupation }}{% endif %}{% if author.location %} {{ 'in' | i18n }} {{ author.location }}{% endif %}{%- endset -%}
 {%- set pageDescription -%}{{ 'description' | i18n }}{%- endset -%}
 
 <meta charset="UTF-8">
@@ -37,7 +37,7 @@
 <script type="application/ld+json">
     {
         "name":"{{ 'author_name' | i18n }}",
-        "description":"{{ 'occupation' | i18n }}{% if author.location %} {{ 'in' | i18n }} {{ author.location }}{% endif %}",
+        "description":"{{ author.occupation }}{% if author.location %} {{ 'in' | i18n }} {{ author.location }}{% endif %}",
         "author": {
             "@type":"Person",
             "name":"{{ 'author_name' | i18n }}"
