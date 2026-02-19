@@ -71,10 +71,25 @@ module.exports = {
     'en-GB': 'Education',
     'es-ES': 'Educación'
   },
+  coreSkills: {
+    'ru-RU': 'Ключевые навыки',
+    'en-GB': 'Core Skills',
+    'es-ES': 'Habilidades clave'
+  },
   skills: {
     'ru-RU': 'Навыки',
     'en-GB': 'Skills',
     'es-ES': 'Habilidades'
+  },
+  hardSkills: {
+    'ru-RU': 'Технические навыки',
+    'en-GB': 'Technical Skills',
+    'es-ES': 'Habilidades técnicas'
+  },
+  softSkills: {
+    'ru-RU': 'Гибкие навыки',
+    'en-GB': 'Soft Skills',
+    'es-ES': 'Habilidades blandas'
   },
   languages: {
     'ru-RU': 'Языки',

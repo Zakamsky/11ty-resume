@@ -5,6 +5,17 @@
     padding: 0;
     list-style: none;
 
+    &__subtitle {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 1rem 0 0.5rem;
+        color: $gray-dark;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
     &__item {
         font-size: 0.875rem;
         padding: 0.188rem 0.625rem;

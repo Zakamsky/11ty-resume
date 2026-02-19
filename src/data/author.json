@@ -37,28 +37,34 @@
       "level": "native"
     }
   ],
-  "skills": [
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
+  "coreSkills": {
+    "hard": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js"
+    ],
+    "soft": [
+      "Teamwork",
+      "Problem solving",
+      "Mentoring"
+    ]
+  },
+  "hardSkills": [
     "Web components",
     "UI/UX",
     "A11y Accessibility",
     "JAMstack",
-    "Node.js",
     "Angular",
     "Vue.js",
     "CI/CD Pipelines",
     "Git Actions"
   ],
-  "otherSkills": [
-    "Teamwork",
+  "softSkills": [
     "Antifragile",
     "Product thinking",
     "Critical thinking",
-    "Problem solving",
-    "Mentoring",
     "Learn on the fly"
   ],
   "hobby": [

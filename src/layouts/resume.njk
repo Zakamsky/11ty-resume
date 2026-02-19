@@ -28,19 +28,16 @@ layout: base
         </section>
     {% endif %}
 
-    {% if author.skills %}
-        <section class="section section--half" id="section-skills">
-            <h2 class="section__title">{{ 'skills' | i18n }}</h2>
+    {% if author.coreSkills %}
+        <section class="section section--half" id="section-core-skills">
+            <h2 class="section__title">{{ 'coreSkills' | i18n }}</h2>
             <ul class="skilllist">
-                {% for skill in author.skills %}
+                {% for skill in author.coreSkills.hard %}
                     <li class="skilllist__item p-skill">{{ skill }}</li>
                 {% endfor %}
-
-                {% if author.otherSkills %}
-                    {% for otherSkill in author.otherSkills %}
-                        <li class="skilllist__item skilllist__item--soft p-skill">{{ otherSkill }}</li>
-                    {% endfor %}
-                {% endif %}
+                {% for skill in author.coreSkills.soft %}
+                    <li class="skilllist__item skilllist__item--soft p-skill">{{ skill }}</li>
+                {% endfor %}
             </ul>
         </section>
     {% endif %}
@@ -51,6 +48,28 @@ layout: base
         {% set microformat = "p-experience" %}
         {% include "entrylist.njk" %}
     </section>
+
+    {% if author.hardSkills or author.softSkills %}
+        <section class="section" id="section-skills">
+            <h2 class="section__title">{{ 'skills' | i18n }}</h2>
+            {% if author.hardSkills %}
+                <h3 class="skilllist__subtitle">{{ 'hardSkills' | i18n }}</h3>
+                <ul class="skilllist">
+                    {% for skill in author.hardSkills %}
+                        <li class="skilllist__item p-skill">{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% if author.softSkills %}
+                <h3 class="skilllist__subtitle">{{ 'softSkills' | i18n }}</h3>
+                <ul class="skilllist">
+                    {% for skill in author.softSkills %}
+                        <li class="skilllist__item skilllist__item--soft p-skill">{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </section>
+    {% endif %}
 
     <section class="section" id="section-education">
         <h2 class="section__title">{{ 'education' | i18n }}</h2>
