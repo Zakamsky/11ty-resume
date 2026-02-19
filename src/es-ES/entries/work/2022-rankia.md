@@ -6,10 +6,12 @@ location: Valencia, España
 mode: híbrido, luego remoto
 start: 2022-09-07
 skills:
-    - React
-    - TypeScript
-    - Node.js
-    - Ruby on Rails
+    hard:
+        - React
+        - TypeScript
+        - Node.js
+        - Ruby on Rails
+    soft: []
 
 ---
 

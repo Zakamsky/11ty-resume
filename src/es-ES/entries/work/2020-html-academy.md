@@ -7,9 +7,11 @@ mode: remoto, parcial
 start: 2020-01-18
 end: 2022-10-08
 skills:
-    - CSS/HTML
-    - JavaScript
-    - React
+    hard:
+        - CSS/HTML
+        - JavaScript
+        - React
+    soft: []
 ---
 
 Tutor en intensivos de HTML y CSS JavaScript, maquetación de correos electrónicos.

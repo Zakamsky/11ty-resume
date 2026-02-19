@@ -43,6 +43,11 @@
         border: 1px solid $brand-green;
         border-radius: 0.25rem;
         color: $brand-green;
+
+        &--soft {
+            font-style: italic;
+            border-style: dotted;
+        }
     }
 
     &__content {

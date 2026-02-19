@@ -7,10 +7,12 @@ mode: hybrid, then remote
 start: 2022-09-07
 end: 2022-02-12
 skills:
-    - React
-    - TypeScript
-    - Node.js
-    - Ruby on Rails
+    hard:
+        - React
+        - TypeScript
+        - Node.js
+        - Ruby on Rails
+    soft: []
 ---
 
 

@@ -37,8 +37,11 @@
 
     {% if entry.data.skills %}
         <ul class="entry__skills">
-            {% for skill in entry.data.skills %}
+            {% for skill in entry.data.skills.hard %}
                 <li class="entry__skill">{{ skill }}</li>
+            {% endfor %}
+            {% for skill in entry.data.skills.soft %}
+                <li class="entry__skill entry__skill--soft">{{ skill }}</li>
             {% endfor %}
         </ul>
     {% endif %}

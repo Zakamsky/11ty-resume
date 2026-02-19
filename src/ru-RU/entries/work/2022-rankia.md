@@ -6,10 +6,12 @@ location: Валенсия, Испания
 mode: гибрид, затем удалённо
 start: 2022-09-07
 skills:
-    - React
-    - TypeScript
-    - Node.js
-    - Ruby on Rails
+    hard:
+        - React
+        - TypeScript
+        - Node.js
+        - Ruby on Rails
+    soft: []
 
 ---
 
