@@ -14,7 +14,7 @@ skills:
         - CI/CD Pipelines
     soft:
         - Mentoring & Coaching
-        - Leadershipand
+        - Leadership
 ---
 
 Mentorship in frontend development courses (modern HTML/CSS, JavaScript, React, CI/CD Pipelines).

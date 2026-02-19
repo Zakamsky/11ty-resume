@@ -18,6 +18,7 @@ skills:
         - GDPR Compliance
         - Figma Automation
         - JAMstack
+        - Docker
         - GraphQL
         - MongoDB
     soft:
