@@ -14,10 +14,7 @@ skills:
         - CI/CD Pipelines
     soft:
         - Mentoring & Coaching
-        - Product-Oriented Mindset
-        - Leadership
-        - Ownership & Accountability
-        - Empathy
+        - Leadershipand
 ---
 
 Mentorship in frontend development courses (modern HTML/CSS, JavaScript, React, CI/CD Pipelines).

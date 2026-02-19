@@ -8,16 +8,13 @@ start: 2020-01-18
 end: 2022-10-08
 skills:
     hard:
-        - HTML Templating 
+        - HTML Templating
         - JavaScript
         - React
         - CI/CD Pipelines
     soft:
         - Mentoring & Coaching
-        - Product-Oriented Mindset
         - Leadership
-        - Ownership & Accountability
-        - Empathy
 ---
 
 Менторство на курсах по современной вёрстке, JavaScript, React и CI/CD Pipelines.

@@ -1,29 +1,27 @@
 ---
-title: Frontend Engineer
+title: Senior Frontend Engineer
 organization: Rankia S.L.
 organizationUrl: https://www.rankia.com/
 location: Валенсия, Испания
 mode: гибрид, затем удалённо
 start: 2022-09-07
+end: 2026-02-12
 skills:
     hard:
         - React
         - TypeScript
         - Node.js
-        - Ruby on Rails
-        - Performance
         - Core Web Vitals
         - SSG
         - Web Components
         - SEO Optimization
         - GDPR Compliance
-        - Design Tokens
         - Figma Automation
+        - JAMstack
         - GraphQL
         - MongoDB
     soft:
         - Cross-functional Collaboration
-        - Systems Thinking
         - Product-Oriented Mindset
         - Ownership & Accountability
 
