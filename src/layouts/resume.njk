@@ -31,14 +31,14 @@ layout: base
     {% if author.skills %}
         <section class="section section--half" id="section-skills">
             <h2 class="section__title">{{ 'skills' | i18n }}</h2>
-            <ul class="bulletlist bulletlist--columns">
+            <ul class="skilllist">
                 {% for skill in author.skills %}
-                    <li class="p-skill">{{ skill }}</li>
+                    <li class="skilllist__item p-skill">{{ skill }}</li>
                 {% endfor %}
 
                 {% if author.otherSkills %}
                     {% for otherSkill in author.otherSkills %}
-                        <li class="p-skill"><i>{{ otherSkill }}</i></li>
+                        <li class="skilllist__item skilllist__item--soft p-skill">{{ otherSkill }}</li>
                     {% endfor %}
                 {% endif %}
             </ul>

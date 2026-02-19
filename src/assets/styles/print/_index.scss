@@ -95,6 +95,11 @@
         -webkit-print-color-adjust: exact !important;
     }
 
+    .skilllist__item {
+        color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+
     //.entrylist__item,
     .entry {
         page-break-inside: avoid;
