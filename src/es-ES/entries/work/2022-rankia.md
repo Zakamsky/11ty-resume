@@ -11,7 +11,6 @@ skills:
         - TypeScript
         - Node.js
         - Ruby on Rails
-        - Performance
         - Core Web Vitals
         - SSG
         - Web Components
