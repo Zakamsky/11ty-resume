@@ -27,8 +27,11 @@ skills:
 ---
 
 Development of financial market analytics platforms with a focus on performance, scalability, and SEO-driven architecture.
+Work with a monorepo containing frontend, backend, and shared components for 20+ platforms using a unified core with customization for different markets and regulatory requirements.
+
 - Improved performance metrics and Core Web Vitals, increasing page load speed by 30%.
 - Designed and implemented reusable cross-platform web components seamlessly integrated into both Next.js (SSG) and Ruby on Rails projects, independent of the underlying tech stack.
-- Configured and optimized full static site generation (SSG) in a Next.js project to enhance performance and SEO.
+- Configured and optimized Node.js-based SSG/SSR in a Next.js project to enhance performance and SEO.
 - Integrated a GDPR-compliant user consent management SDK.
 - Implemented a design token system with automated value imports from Figma, accelerating new design rollout by 25%.
+- Developed and maintained backend API endpoints using Ruby and GraphQL, serving 50K+ monthly active users.
