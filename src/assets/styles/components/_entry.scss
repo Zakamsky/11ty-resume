@@ -57,7 +57,7 @@
         }
 
         ul {
-            padding-left: initial;
+            padding-left: 1.5em;
             list-style: circle;
             & > li::marker {
                 color: $gray-middle;

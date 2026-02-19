@@ -11,12 +11,25 @@ skills:
         - TypeScript
         - Node.js
         - Ruby on Rails
-    soft: []
+        - Performance
+        - Core Web Vitals
+        - SSG
+        - Web Components
+        - SEO Optimization
+        - GDPR Compliance
+        - Design Tokens
+        - Figma Automation
+    soft:
+        - Cross-functional Collaboration
+        - Systems Thinking
+        - Product-Oriented Mindset
+        - Ownership & Accountability
 
 ---
+Desarrollo de plataformas de analítica de mercados financieros con enfoque en rendimiento, escalabilidad y arquitectura orientada a SEO.
 
-
-Como Frontend Developer, fui responsable de la implementación y el mantenimiento de funcionalidades del lado del cliente, con un fuerte enfoque en rendimiento, escalabilidad y mantenibilidad. Desarrollé formularios dinámicos de captación de leads, módulos comparadores de productos y bloques personalizados para un editor de texto enriquecido, además de mejorar y refactorizar funcionalidades existentes.
-
-Supervisé y optimicé el rendimiento y los Core Web Vitals, logrando una mejora del 23% en las métricas de performance de la página. Integré un SDK de gestión de consentimiento conforme al GDPR, implementé el uso de design tokens con importación directa de valores desde Figma para alinear diseño y desarrollo, desarrollé Web Components reutilizables y participé en proyectos con arquitectura 100% SSR (JAMstack) para garantizar alto rendimiento y buen posicionamiento SEO.
-
+- Mejoré las métricas de rendimiento y Core Web Vitals, incrementando la velocidad de carga en un 30 %.
+- Diseñé e implementé componentes web reutilizables y multiplataforma, integrados de forma consistente tanto en proyectos con Next.js (SSG) como en Ruby on Rails, independientemente del stack tecnológico.
+- Configuré y optimicé la generación estática completa (SSG) en un proyecto con Next.js para mejorar el rendimiento y el posicionamiento SEO.
+- Integré un SDK de gestión de consentimiento compatible con GDPR.
+- Implementé un sistema de design tokens con importación automática de valores desde Figma, acelerando la implementación de nuevos diseños en un 25 %.

@@ -12,10 +12,24 @@ skills:
         - TypeScript
         - Node.js
         - Ruby on Rails
-    soft: []
+        - Performance
+        - Core Web Vitals
+        - SSG
+        - Web Components
+        - SEO Optimization
+        - GDPR Compliance
+        - Design Tokens
+        - Figma Automation
+    soft:
+        - Cross-functional Collaboration
+        - Systems Thinking
+        - Product-Oriented Mindset
+        - Ownership & Accountability
 ---
 
-
-As a Frontend Developer, I was responsible for delivering and maintaining client-side features with a strong focus on performance, scalability, and maintainability. I implemented dynamic lead capture forms, product comparison modules, and custom content blocks for a rich text editor, while continuously improving and refactoring existing functionality.
-
-I actively monitored and optimized performance and Core Web Vitals, achieving a 23% improvement in page performance metrics. I integrated a GDPR-compliant user consent SDK, introduced design tokens with direct Figma value imports to better align design and engineering, developed reusable Web Components, and contributed to fully SSR (JAMstack) projects to ensure strong SEO and high performance.
+Development of financial market analytics platforms with a focus on performance, scalability, and SEO-driven architecture.
+- Improved performance metrics and Core Web Vitals, increasing page load speed by 30%.
+- Designed and implemented reusable cross-platform web components seamlessly integrated into both Next.js (SSG) and Ruby on Rails projects, independent of the underlying tech stack.
+- Configured and optimized full static site generation (SSG) in a Next.js project to enhance performance and SEO.
+- Integrated a GDPR-compliant user consent management SDK.
+- Implemented a design token system with automated value imports from Figma, accelerating new design rollout by 25%.
