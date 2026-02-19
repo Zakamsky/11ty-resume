@@ -14,7 +14,7 @@ skills:
         - CI/CD Pipelines
     soft:
         - Mentoring & Coaching
-        - Product Thinking
+        - Product-Oriented Mindset
         - Leadership
         - Ownership & Accountability
         - Empathy

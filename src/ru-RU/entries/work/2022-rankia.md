@@ -19,6 +19,8 @@ skills:
         - GDPR Compliance
         - Design Tokens
         - Figma Automation
+        - GraphQL
+        - MongoDB
     soft:
         - Cross-functional Collaboration
         - Systems Thinking
