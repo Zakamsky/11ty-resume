@@ -10,7 +10,7 @@ skills:
     hard:
         - PrestaShop
         - JavaScript
-        - CSS/HTML
+        - HTML/CSS/SCSS
         - PHP
     soft: []
 ---

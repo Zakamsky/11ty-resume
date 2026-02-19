@@ -8,7 +8,7 @@ start: 2020-01-18
 end: 2022-10-08
 skills:
     hard:
-        - CSS/HTML
+        - HTML/CSS/SCSS
         - JavaScript
         - React
     soft:
