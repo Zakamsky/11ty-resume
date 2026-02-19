@@ -8,14 +8,20 @@ start: 2020-01-18
 end: 2022-10-08
 skills:
     hard:
-        - HTML/CSS/SCSS
+        - HTML Templating 
         - JavaScript
         - React
+        - CI/CD Pipelines
     soft:
-        - mentoring
+        - Mentoring & Coaching
+        - Product Thinking
+        - Leadership
+        - Ownership & Accountability
+        - Empathy
 ---
 
-- Mentor in HTML, CSS, JavaScript, and email markup intensives.
-  Helping and motivating students, answering their questions, code-reviewing, and pull requests approving.
-- Regularly ranked among the top mentors based on student feedback and 10/10 grades received.
-  Received a commendation for contribution to course development.
+Mentorship in frontend development courses (modern HTML/CSS, JavaScript, React, CI/CD Pipelines).
+
+- Conducted code reviews, managed pull requests, and ensured adherence to GitFlow.
+- Supported students with technical questions and professional development.
+- Consistently ranked among top mentors, received 10/10 student ratings, and was recognized for contribution to course development.

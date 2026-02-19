@@ -8,14 +8,20 @@ start: 2020-01-18
 end: 2022-10-08
 skills:
     hard:
-        - HTML/CSS/SCSS
+        - HTML Templating 
         - JavaScript
         - React
-    soft: []
+        - CI/CD Pipelines
+    soft:
+        - Mentoring & Coaching
+        - Product Thinking
+        - Leadership
+        - Ownership & Accountability
+        - Empathy
 ---
 
-Tutor en intensivos de HTML y CSS JavaScript, maquetación de correos electrónicos.
+Mentoría en cursos de maquetación moderna, JavaScript, React y CI/CD Pipelines.
 
-- Ayudaba a los estudiantes y su motivación, responder a las preguntas, llevar a cabo la revisiones de código y la aprobación de pull request.
-- Regularmente formaba parte entre los mejores mentores en base a los comentarios de los estudiantes y las calificaciones recibidas 10/10.
-  Recibí el reconocimiento por su contribución al desarrollo del curso.
+- Realización de code reviews, gestión de pull requests y control del cumplimiento de GitFlow.
+- Apoyo a los estudiantes en cuestiones técnicas y en su desarrollo profesional.
+- Reconocido regularmente entre los mejores mentores, con valoraciones de 10/10 por parte de los estudiantes y agradecimiento por la contribución al desarrollo del curso.

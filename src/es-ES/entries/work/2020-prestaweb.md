@@ -11,12 +11,12 @@ skills:
         - PrestaShop
         - JavaScript
         - HTML/CSS/SCSS
-        - PHP
-    soft: []
+        - Rest API
+    soft:
+        - Teamwork
 ---
 
-- Desarrollo del frontend, aceptar markup desde el otro markup desarrollador, integración con la api del backend y el CMS PrestaShop. Apoyo a proyectos legacy, trabajo con registro de tiempos, teleconferencias, trabajo en equipo.
+Estudio web (proyectos B2B, CMS) — desarrollo frontend e integración con API backend.
 
-- Desarrollé diseños modernos utilizando el fallback para el apoyo a navegadores más antiguos.
-  Ajusté la usabilidad de la wiki corporativa, mejoré la legibilidad a través de la tipografía.
-
+- Implementación en producción de layouts modernos con soporte fallback para navegadores antiguos.
+- Mejora de la legibilidad y la experiencia de usuario de la wiki corporativa mediante optimización tipográfica y estructuración del contenido.

@@ -11,9 +11,12 @@ skills:
         - PrestaShop
         - JavaScript
         - HTML/CSS/SCSS
-        - PHP
-    soft: []
+        - Rest API
+    soft:
+        - Teamwork
 ---
 
-- Frontend development, markup approval from markup developers, integration with backend API, and CMS PrestaShop. Legacy projects support, working with time logging, teleconferencing, and teamwork.
-- I have developed modern layouts using the fallback to support older browsers. Tweaked the usability of the corporate wiki, and improved readability through typography.
+Web Studio (B2B projects, CMS) — frontend development and backend API integration.
+
+- Delivered modern layout solutions to production with fallback support for legacy browsers.
+- Improved corporate wiki readability and UX through typography and content structure refinement.
