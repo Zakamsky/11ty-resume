@@ -1,6 +1,6 @@
 <div class="vcard h-card">
     {% if author.avatar %}
-        {%- set avatarUrl -%}/assets/images/{{ author.avatar }}{% endset %}
+        {%- set avatarUrl -%}{{ ('/assets/images/' + author.avatar) | url }}{% endset %}
         <img class="vcard__avatar u-photo" src="{{ avatarUrl }}" width="200" height="200" alt="{{ 'author_name' | i18n }}" />
     {% endif %}
 

@@ -35,6 +35,7 @@ jobs:
         run: npm run clean && npm run eleventy:prod:netlify
         env:
           ELEVENTY_ENV: production
+          PATH_PREFIX: /11ty-resume/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -151,6 +151,7 @@ module.exports = function (config) {
 
     // Base Config
     return {
+        pathPrefix: process.env.PATH_PREFIX || '/',
         dir: {
             input: 'src',
             output: 'dist',

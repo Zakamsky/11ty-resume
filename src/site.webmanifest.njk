@@ -8,19 +8,19 @@ permalink: site.webmanifest
     "short_name": "{{ 'author_name' | i18n }}",
     "icons": [
         {
-            "src": "/assets/images/favicon/android-chrome-192x192.png",
+            "src": "{{ '/assets/images/favicon/android-chrome-192x192.png' | url }}",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/assets/images/favicon/android-chrome-512x512.png",
+            "src": "{{ '/assets/images/favicon/android-chrome-512x512.png' | url }}",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
     "theme_color": "{{ meta.colors.primary or "#1a1a1a" }}",
     "background_color": "{{ meta.colors.primary or "#1a1a1a" }}",
-    "start_url": "/index.html",
+    "start_url": "{{ '/index.html' | url }}",
     "display": "standalone",
     "orientation": "natural"
 }
