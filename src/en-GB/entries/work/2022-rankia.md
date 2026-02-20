@@ -35,4 +35,3 @@ Work with a monorepo containing frontend, backend, and shared components for 20+
 - Configured and optimized Node.js-based SSG/SSR in a Next.js project to enhance performance and SEO.
 - Integrated a GDPR-compliant user consent management SDK.
 - Implemented a design token system with automated value imports from Figma, accelerating new design rollout by 25%.
-- Developed and maintained backend API endpoints using Ruby and GraphQL, serving 50K+ monthly active users.
