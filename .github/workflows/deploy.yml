@@ -32,10 +32,9 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: npm run build
+        run: npm run clean && npm run eleventy:prod:netlify
         env:
           ELEVENTY_ENV: production
-          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
