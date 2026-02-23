@@ -4,8 +4,8 @@ organization: HTML academy
 organizationUrl: https://htmlacademy.ru/
 location: Saint Petersburg, RU 
 mode: remote, partial
-start: 2020-01-18
-end: 2022-10-08
+start: 2020-03-18
+end: 2022-09-08
 skills:
     hard:
         - HTML Templating 
@@ -17,7 +17,7 @@ skills:
         - Leadership
 ---
 
-Mentorship in frontend development courses (modern HTML/CSS, JavaScript, React, CI/CD Pipelines).
+Provided mentorship in frontend development courses (HTML/CSS, JavaScript, React, CI/CD), drawing on extensive hands-on commercial experience.
 
 - Conducted code reviews, managed pull requests, and ensured adherence to GitFlow.
 - Supported students with technical questions and professional development.

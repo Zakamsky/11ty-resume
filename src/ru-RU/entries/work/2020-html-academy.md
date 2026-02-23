@@ -4,8 +4,8 @@ organization: HTML Академия
 organizationUrl: https://htmlacademy.ru/
 location: Санкт Петербург, РФ
 mode: удаленно, совмещение
-start: 2020-01-18
-end: 2022-10-08
+start: 2020-03-18
+end: 2022-09-08
 skills:
     hard:
         - HTML Templating
