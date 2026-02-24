@@ -36,6 +36,7 @@ jobs:
         env:
           ELEVENTY_ENV: production
           PATH_PREFIX: /
+          SITE_URL: https://cv.elkin.dev/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -5,6 +5,7 @@
 [context.production.environment]
     ELEVENTY_ENV = "production"
     NODE_VERSION = "16"
+    SITE_URL = "https://resume.elkin.dev/"
 
 [[headers]]
     for = "/*"
