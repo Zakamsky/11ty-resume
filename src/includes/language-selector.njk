@@ -9,7 +9,7 @@
             {# {% if lang === 'ru' %} #}
                 <li class="language-list__item">
                     <a class="language-list__link has-tooltip bottom-left-tooltip"
-                       href="/{{ locale.code }}/{{ pageUrl }}"
+                       href="{{ ('/' + locale.code + '/' + pageUrl) | url }}"
                        rel="alternate"
                        hreflang="{{ locale.code }}"
                        aria-label="{{ locale.label }}"
@@ -24,7 +24,7 @@
         {% else %}
           <li class="language-list__item">
             <a class="language-list__link has-tooltip bottom-left-tooltip"
-               href="/{{ locale.code }}/{{ pageUrl }}"
+               href="{{ ('/' + locale.code + '/' + pageUrl) | url }}"
                rel="alternate"
                hreflang="{{ locale.code }}"
                aria-label="{{ locale.label }}"

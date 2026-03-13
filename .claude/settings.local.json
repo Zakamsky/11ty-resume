@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:zakamsky.github.io)",
+      "WebFetch(domain:resume.elkin.dev)"
+    ]
+  }
+}
